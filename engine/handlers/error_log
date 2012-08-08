@@ -1,0 +1,416 @@
+[07-Jul-2012 08:06:08] PHP WARNING: 2012-07-07 08:06:08 (CDT): "mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'bor'@'localhost' (using password: YES)" in file /home/tdcribb/public_html/engine/lib/database.php (line 102)
+[07-Jul-2012 08:06:08] Exception #1341666368: exception 'DatabaseException' with message 'Elgg couldn't connect to the database using the given credentials. Check the settings file.' in /home/tdcribb/public_html/engine/lib/database.php:105
+Stack trace:
+#0 /home/tdcribb/public_html/engine/lib/database.php(143): establish_db_link()
+#1 /home/tdcribb/public_html/engine/lib/elgglib.php(2113): setup_db_connections()
+#2 /home/tdcribb/public_html/engine/lib/elgglib.php(773): _elgg_engine_boot('readwrite')
+#3 /home/tdcribb/public_html/engine/start.php(99): elgg_trigger_event()
+#4 /home/tdcribb/public_html/engine/handlers/action_handler.php(17): require_once('/home/tdcribb/p...')
+#5 {main}
+[07-Jul-2012 08:06:59] PHP WARNING: 2012-07-07 08:06:59 (CDT): "mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'bor'@'localhost' (using password: YES)" in file /home/tdcribb/public_html/engine/lib/database.php (line 102)
+[07-Jul-2012 08:06:59] Exception #1341666419: exception 'DatabaseException' with message 'Elgg couldn't connect to the database using the given credentials. Check the settings file.' in /home/tdcribb/public_html/engine/lib/database.php:105
+Stack trace:
+#0 /home/tdcribb/public_html/engine/lib/database.php(143): establish_db_link()
+#1 /home/tdcribb/public_html/engine/lib/elgglib.php(2113): setup_db_connections()
+#2 /home/tdcribb/public_html/engine/lib/elgglib.php(773): _elgg_engine_boot('readwrite')
+#3 /home/tdcribb/public_html/engine/start.php(99): elgg_trigger_event()
+#4 /home/tdcribb/public_html/engine/handlers/action_handler.php(17): require_once('/home/tdcribb/p...')
+#5 {main}
+[07-Jul-2012 08:11:59] PHP WARNING: 2012-07-07 08:11:59 (CDT): "mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'bor'@'localhost' (using password: YES)" in file /home/tdcribb/public_html/engine/lib/database.php (line 102)
+[07-Jul-2012 08:11:59] Exception #1341666719: exception 'DatabaseException' with message 'Elgg couldn't connect to the database using the given credentials. Check the settings file.' in /home/tdcribb/public_html/engine/lib/database.php:105
+Stack trace:
+#0 /home/tdcribb/public_html/engine/lib/database.php(143): establish_db_link()
+#1 /home/tdcribb/public_html/engine/lib/elgglib.php(2113): setup_db_connections()
+#2 /home/tdcribb/public_html/engine/lib/elgglib.php(773): _elgg_engine_boot('readwrite')
+#3 /home/tdcribb/public_html/engine/start.php(99): elgg_trigger_event()
+#4 /home/tdcribb/public_html/engine/handlers/action_handler.php(17): require_once('/home/tdcribb/p...')
+#5 {main}
+[07-Jul-2012 08:16:59] PHP WARNING: 2012-07-07 08:16:59 (CDT): "mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'bor'@'localhost' (using password: YES)" in file /home/tdcribb/public_html/engine/lib/database.php (line 102)
+[07-Jul-2012 08:16:59] Exception #1341667019: exception 'DatabaseException' with message 'Elgg couldn't connect to the database using the given credentials. Check the settings file.' in /home/tdcribb/public_html/engine/lib/database.php:105
+Stack trace:
+#0 /home/tdcribb/public_html/engine/lib/database.php(143): establish_db_link()
+#1 /home/tdcribb/public_html/engine/lib/elgglib.php(2113): setup_db_connections()
+#2 /home/tdcribb/public_html/engine/lib/elgglib.php(773): _elgg_engine_boot('readwrite')
+#3 /home/tdcribb/public_html/engine/start.php(99): elgg_trigger_event()
+#4 /home/tdcribb/public_html/engine/handlers/action_handler.php(17): require_once('/home/tdcribb/p...')
+#5 {main}
+[07-Jul-2012 08:21:59] PHP WARNING: 2012-07-07 08:21:59 (CDT): "mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'bor'@'localhost' (using password: YES)" in file /home/tdcribb/public_html/engine/lib/database.php (line 102)
+[07-Jul-2012 08:21:59] Exception #1341667319: exception 'DatabaseException' with message 'Elgg couldn't connect to the database using the given credentials. Check the settings file.' in /home/tdcribb/public_html/engine/lib/database.php:105
+Stack trace:
+#0 /home/tdcribb/public_html/engine/lib/database.php(143): establish_db_link()
+#1 /home/tdcribb/public_html/engine/lib/elgglib.php(2113): setup_db_connections()
+#2 /home/tdcribb/public_html/engine/lib/elgglib.php(773): _elgg_engine_boot('readwrite')
+#3 /home/tdcribb/public_html/engine/start.php(99): elgg_trigger_event()
+#4 /home/tdcribb/public_html/engine/handlers/action_handler.php(17): require_once('/home/tdcribb/p...')
+#5 {main}
+[07-Jul-2012 08:46:02] PHP WARNING: 2012-07-07 08:46:02 (CDT): "require(/home/tdcribb/public_html/pages/settings/account.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory" in file /home/tdcribb/public_html/engine/lib/user_settings.php (line 332)
+[07-Jul-2012 08:46:02] PHP WARNING: 2012-07-07 08:46:02 (CDT): "require(/home/tdcribb/public_html/pages/settings/account.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory" in file /home/tdcribb/public_html/engine/lib/user_settings.php (line 332)
+[07-Jul-2012 08:46:02] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/tdcribb/public_html/pages/settings/account.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tdcribb/public_html/engine/lib/user_settings.php on line 332
+[08-Jul-2012 16:57:52] PHP WARNING: 2012-07-08 16:57:52 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[09-Jul-2012 15:24:34] PHP WARNING: 2012-07-09 15:24:34 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/search/start.php (line 268)
+[09-Jul-2012 15:24:50] PHP WARNING: 2012-07-09 15:24:50 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/search/start.php (line 268)
+[09-Jul-2012 15:25:09] PHP WARNING: 2012-07-09 15:25:09 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/search/start.php (line 268)
+[09-Jul-2012 15:45:34] PHP WARNING: 2012-07-09 15:45:34 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[11-Jul-2012 11:18:57] PHP WARNING: 2012-07-11 11:18:57 (CDT): "array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object" in file /home/tdcribb/public_html/engine/classes/ElggExtender.php (line 50)
+[11-Jul-2012 11:18:57] PHP WARNING: 2012-07-11 11:18:57 (CDT): "array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object" in file /home/tdcribb/public_html/engine/classes/ElggExtender.php (line 50)
+[11-Jul-2012 11:40:55] PHP WARNING: 2012-07-11 11:40:55 (CDT): "touch() [<a href='function.touch'>function.touch</a>]: Unable to create file /home/tdcribb/public_html/mod/chat_pfc/vendors/phpfreechat/src/../data/private/cache/68efb253fe53f5eaa5fbcb5739e02f79.php_lock because No such file or directory" in file /home/tdcribb/public_html/mod/chat_pfc/vendors/phpfreechat/src/pfcglobalconfig.class.php (line 1090)
+[18-Jul-2012 14:50:16] PHP WARNING: 2012-07-18 14:50:16 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[19-Jul-2012 14:29:39] PHP WARNING: 2012-07-19 14:29:39 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[19-Jul-2012 14:31:42] PHP WARNING: 2012-07-19 14:31:42 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[19-Jul-2012 14:31:56] PHP WARNING: 2012-07-19 14:31:56 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[24-Jul-2012 10:53:11] PHP Fatal error:  Cannot redeclare file_init() (previously declared in /home/tdcribb/public_html/mod/file/start.php:16) in /home/tdcribb/public_html/mod/books/start.php on line 87
+[24-Jul-2012 10:53:20] PHP Fatal error:  Cannot redeclare file_init() (previously declared in /home/tdcribb/public_html/mod/file/start.php:16) in /home/tdcribb/public_html/mod/books/start.php on line 87
+[24-Jul-2012 10:53:21] PHP Fatal error:  Cannot redeclare file_init() (previously declared in /home/tdcribb/public_html/mod/file/start.php:16) in /home/tdcribb/public_html/mod/books/start.php on line 87
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] Class 'TidypicsAlbum' was not found, missing plugin?
+[26-Jul-2012 08:10:11] PHP Fatal error:  Call to undefined method ElggObject::getImages() in /home/tdcribb/public_html/mod/tidypics/views/default/river/object/album/create.php on line 18
+[27-Jul-2012 11:14:02] Class 'TidypicsImage' was not found, missing plugin?
+[27-Jul-2012 11:14:02] PHP WARNING: 2012-07-27 11:14:02 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/search/start.php (line 268)
+[27-Jul-2012 11:14:02] PHP WARNING: 2012-07-27 11:14:02 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/search/start.php (line 268)
+[27-Jul-2012 11:14:02] Class 'TidypicsImage' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 11:16:24] PHP Fatal error:  Call to undefined method ElggObject::getImages() in /home/tdcribb/public_html/mod/tidypics/views/default/river/object/album/create.php on line 18
+[27-Jul-2012 11:16:33] Class 'TidypicsImage' was not found, missing plugin?
+[27-Jul-2012 11:16:33] PHP WARNING: 2012-07-27 11:16:33 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/search/start.php (line 268)
+[27-Jul-2012 11:16:33] PHP WARNING: 2012-07-27 11:16:33 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/search/start.php (line 268)
+[27-Jul-2012 11:16:33] Class 'TidypicsImage' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] Class 'TidypicsAlbum' was not found, missing plugin?
+[27-Jul-2012 14:07:04] PHP Fatal error:  Call to undefined method ElggObject::getImages() in /home/tdcribb/public_html/mod/tidypics/views/default/river/object/album/create.php on line 18
+[27-Jul-2012 14:07:30] PHP WARNING: 2012-07-27 14:07:30 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[31-Jul-2012 05:52:15] PHP WARNING: 2012-07-31 05:52:15 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[31-Jul-2012 14:27:05] PHP WARNING: 2012-07-31 14:27:05 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[31-Jul-2012 16:43:19] PHP WARNING: 2012-07-31 16:43:19 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[31-Jul-2012 16:43:19] PHP WARNING: 2012-07-31 16:43:19 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[01-Aug-2012 12:58:11] Deprecated in 1.8: widgets use content as the display view Called from [#9] /home/tdcribb/public_html/engine/lib/views.php:506
+[01-Aug-2012 12:58:13] Deprecated in 1.8: widgets use content as the display view Called from [#9] /home/tdcribb/public_html/engine/lib/views.php:506
+[02-Aug-2012 01:27:37] PHP WARNING: 2012-08-02 01:27:37 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[02-Aug-2012 01:27:37] PHP WARNING: 2012-08-02 01:27:37 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[02-Aug-2012 01:27:37] PHP WARNING: 2012-08-02 01:27:37 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[02-Aug-2012 08:54:08] Deprecated in 1.8: widgets use content as the display view Called from [#9] /home/tdcribb/public_html/engine/lib/views.php:506
+[02-Aug-2012 08:54:10] Deprecated in 1.8: widgets use content as the display view Called from [#9] /home/tdcribb/public_html/engine/lib/views.php:506
+[02-Aug-2012 10:53:14] PHP WARNING: 2012-08-02 10:53:14 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:52:30] PHP Fatal error:  Call to undefined method ElggObject::getImages() in /home/tdcribb/public_html/mod/tidypics/views/default/river/object/album/create.php on line 18
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] Class 'TidypicsAlbum' was not found, missing plugin?
+[04-Aug-2012 16:53:06] PHP Fatal error:  Call to undefined method ElggObject::getImages() in /home/tdcribb/public_html/mod/tidypics/views/default/river/object/album/create.php on line 18
+[04-Aug-2012 16:53:37] Deprecated in 1.8: widgets use content as the display view Called from [#9] /home/tdcribb/public_html/engine/lib/views.php:506
+[06-Aug-2012 10:29:47] PHP WARNING: 2012-08-06 10:29:47 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[06-Aug-2012 10:29:47] PHP WARNING: 2012-08-06 10:29:47 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[06-Aug-2012 10:29:47] PHP WARNING: 2012-08-06 10:29:47 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[06-Aug-2012 10:29:47] PHP WARNING: 2012-08-06 10:29:47 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[07-Aug-2012 03:24:09] PHP WARNING: 2012-08-07 03:24:09 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[07-Aug-2012 03:24:09] PHP WARNING: 2012-08-07 03:24:09 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[07-Aug-2012 03:24:09] PHP WARNING: 2012-08-07 03:24:09 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[07-Aug-2012 03:24:09] PHP WARNING: 2012-08-07 03:24:09 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[07-Aug-2012 03:24:09] PHP WARNING: 2012-08-07 03:24:09 (CDT): "Invalid argument supplied for foreach()" in file /home/tdcribb/public_html/mod/pages/lib/pages.php (line 107)
+[07-Aug-2012 15:45:38] Deprecated in 1.8: ElggEntity::getOwner deprecated for ElggEntity::getOwnerGUID Called from [#3] /home/tdcribb/public_html/mod/thewire/actions/delete.php:27
+[07-Aug-2012 15:47:07] PHP Warning:  POST Content-Length of 444930795 bytes exceeds the limit of 67108864 bytes in Unknown on line 0
+[07-Aug-2012 16:07:19] PHP Warning:  POST Content-Length of 444930786 bytes exceeds the limit of 67108864 bytes in Unknown on line 0
+[07-Aug-2012 16:23:30] Deprecated in 1.8: Update your use of elgg_view_entity() Called from [#5] /home/tdcribb/public_html/mod/videos/pages/videos/view.php:31
+[07-Aug-2012 16:30:02] Deprecated in 1.8: Update your use of elgg_view_entity() Called from [#5] /home/tdcribb/public_html/mod/videos/pages/videos/view.php:31
+[07-Aug-2012 16:39:56] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:39:56] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:39:56] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:39:56] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:39:57] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:39:57] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:39:57] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:39:57] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:39:57] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:39:57] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:39:57] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:39:57] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:39:58] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:39:58] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:39:58] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:39:58] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:39:58] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:39:58] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:39:58] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:39:58] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:40:03] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:40:03] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:40:03] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:40:03] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:40:04] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:40:04] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:40:04] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:40:04] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:40:04] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:40:04] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:40:04] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:40:04] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:38] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:38] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:38] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:38] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:38] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:38] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:38] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:38] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:39] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:39] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:39] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:39] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:39] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:39] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:39] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:39] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:54] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:54] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:54] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:54] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:54] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:54] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:54] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:54] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:56] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:56] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:56] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:56] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:57] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:57] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:57] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:57] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:57] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:57] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:57] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:57] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:41:59] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:41:59] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:41:59] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:41:59] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:00] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:00] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:00] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:00] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:00] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:06] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:06] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:06] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:06] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:06] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:06] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:06] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:06] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:11] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:11] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:11] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:11] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:12] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:12] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:12] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:12] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:12] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:12] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:12] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:12] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:14] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:14] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:14] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:14] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:15] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:15] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:15] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:15] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:15] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:15] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:15] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:15] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:26] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:26] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:26] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:26] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:30] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:30] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:30] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:30] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:32] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:32] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:32] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:32] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:33] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:33] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:33] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:33] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:33] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:33] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:33] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:33] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:38] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:38] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:38] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:38] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:38] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:38] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:38] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:38] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:41] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:41] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:41] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:41] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:41] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:41] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:41] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:41] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:52] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:52] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:52] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:52] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:55] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:55] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:42:55] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:42:55] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:02] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:02] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:02] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:02] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:05] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:05] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:05] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:05] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:05] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:05] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:05] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:05] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:06] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:06] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:06] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:06] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:11] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:11] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:11] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:11] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:16] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:16] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:16] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:16] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:17] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:17] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:17] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:17] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:17] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[07-Aug-2012 16:43:20] Deprecated in 1.8: register_action() was deprecated by elgg_register_action() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:90
+[07-Aug-2012 16:43:20] Deprecated in 1.8: register_elgg_event_handler() was deprecated by elgg_register_event_handler() Called from [#6] /home/tdcribb/public_html/mod/family/start.php:92
+[07-Aug-2012 16:43:20] Deprecated in 1.8: register_page_handler() was deprecated by elgg_register_page_handler() Called from [#5] /home/tdcribb/public_html/mod/family/start.php:5
+[07-Aug-2012 16:43:20] Deprecated in 1.8: add_widget_type deprecated for elgg_register_widget_type Called from [#5] /home/tdcribb/public_html/mod/family/start.php:9
+[08-Aug-2012 15:03:27] Deprecated in 1.8: Update your use of elgg_view_entity() Called from [#5] /home/tdcribb/public_html/mod/videos/pages/videos/view.php:31

@@ -1,0 +1,21 @@
+
+#is_htmlpage {
+ background: #dedede;
+ padding: 10px;
+}
+#is_htmlpage p {
+ font-size: 12px;
+}
+
+a.is_htmlpage_support {
+ margin: 5px;
+ padding: 5px;
+ float: right;
+ clear: both;
+ font-weight: bold;
+ background: #f4f4f4;
+ -webkit-border-radius: 6px;
+ -moz-brder-radius: 6px;
+ border-radius: 6px;
+
+}
