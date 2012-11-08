@@ -1,0 +1,60 @@
+/*
+ * Style for Interactive Tree
+ * NOTE: Except fpr the colors in person_box, changing this CSS will likely break the display
+ */
+
+.person_box {
+	background-color: #c0d6aa;
+	border: solid #2e4516 2px;
+/* DO NOT CHANGE ANYTHING BELOW THIS LINE */
+	padding-top:1px;
+	padding-right:2px;
+	padding-bottom:1px;
+	padding-left:2px;
+}
+
+.tn_vline {padding: 0px; vertical-align:middle; width: 4px;
+}
+
+.tn_hline {padding: 0px; margin: 0px 0px 0px auto; height: 3px; background-color: inherit; border:0px solid; border-collapse: collapse; vertical-align: middle;
+}
+
+.tn_box   {padding: 0px; margin: 0px 0px 0px auto; width: 1px; border:0px solid; border-collapse: collapse; vertical-align: middle;
+}
+
+.thumbnail {
+	height: auto;
+	padding: 3px;
+}
+
+.portrait {
+        width: 50px;
+        float: left;
+        margin: 5px 5px 5px 5px;
+}
+
+.gedicon {
+        border: none;
+        box-shadow: none;
+        width: 15px;
+        float: right;
+}
+.outer {
+  
+        margin-left: auto;
+        margin-right: auto; 
+        border-style:solid;
+        border-width:2px;
+}
+
+
+#tree_nav {
+	position: relative;
+	top: -584px;
+	left: 90%;
+	z-index: 100;
+}
+
+#headertext h2{
+	z-index: 100;
+}

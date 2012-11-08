@@ -1,0 +1,175 @@
+#wpadminbar, #wpadminbar .ab-top-secondary {background:#000;}
+
+#header {background: -moz-linear-gradient(center top , #000 0%, #2E2E2E 15%, #efefef 100%) repeat scroll 0 0 transparent !important; margin-bottom:0px; padding-top:30px;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+    -webkit-box-shadow: 0px 2px 5px 0px #555;
+    box-shadow:     0px 2px 5px 0px #555;}
+#nav li {margin-left:2px;}
+#nav li a {background:#000; text-align:center; font-weight: bold;}
+#nav li a:hover {background:#efefef; color:#000; font-weight: bold;}
+#nav li ul li.menu-item a:hover {background:#efefef; color:#000; font-weight: bold;}
+#container {border:1px solid #999;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;
+}
+.iphone-header-text-only {display:none; position:relative; float:left; margin-left:5px;}
+#header-login-register .logout {margin-left:10px;}
+
+#content {min-height:500px;}
+.what-is {color:#ccc; cursor:pointer;}
+.what-is:hover {color:#000;}
+.hide {display:none;}
+
+.wpuf-attachments {display:none;}
+
+.platinum {color:#7D7D7C; font-weight: bold;}
+.gold {color:#D9D919; font-weight: bold;}
+.bronze {color:#A67D3D; font-weight: bold;}
+.silver {color:#E6E8FA; font-weight: bold;}
+
+/* *****LOGIN***** */
+div#login h1 a {background:none !important; height:120px !important;}
+div#login h1 {margin-bottom:20px;}
+#login-logo {position:relative; float:left; margin-left:80px; margin-bottom:20px; margin-top:2px;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+    -webkit-box-shadow: 0px 2px 5px 0px #555;
+    box-shadow:     0px 2px 5px 0px #555;}
+
+
+/* *****REGISTER***** */
+#register-page #basic-details-section, #register-page #profile-details-section, #register-page .register-section {position:relative; float:left !important; min-width:100%; text-align:left;}
+#signup_form.standard-form div.submit {float:left !important;}
+#register-page form input {max-width:300px;}
+.registration div#content .padder {margin-right:0px;}
+#signup_form p {font-size:14px;}
+#signup_form.standard-form div div.error {background:#800000; border:1px solid #000; color:#fff; font-size:11px; max-width:500px;}
+
+
+/* *****HEADER***** */
+#nav {position:relative; float:right; margin-top:13px;}
+#header-logo-cont {position:relative; float:left;}
+#header-logo {position:relative; float:left; margin-top:0px;}
+#header-search-cont {position:relative; float:right; margin-right:10px; text-align:right; margin-top:5px;}
+#search-form {position:absolute; top:20px; right:20px; z-index:10;}
+.logo-url {width:400px; height:124px;}
+.slogan {position:absolute; left: 300px; top:30px; color:#fff; font-size:18px;}
+#header-login-register {position:relative; float:left; width:100%; margin-top:-17px; padding-left:10px; margin-bottom:5px;color:#bbb;}
+#header-login-register a {color:#bbb; position:relative; float:left;}
+#header-login-register a:hover {color:#efefef;}
+#nav .menu-item {position:relative; float:left;}
+.search-text {position:relative; float:right; top:-5px; color:#F0DA0D; font-size:14px; text-transform: uppercase; margin-right:20px;}
+
+
+/* *****HOMEPAGE***** */
+.homepage-info {position:relative; float:left; padding:50px; font-size:15px; text-align: center; margin-bottom:25px; margin-right:250px;}
+.homepage-info span {font-size:18px; font-weight: bold;}
+
+
+/* *****FOOTER***** */
+#footer {width:100%; margin-bottom:20px; background:#efefef; border:1px solid #666; position:relative; float:left;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+    -webkit-box-shadow: 0px 2px 5px 0px #555;
+    box-shadow:     0px 2px 5px 0px #555;}
+#footer-link-cont {position:relative; margin:auto; width:100%;}
+.footer-links {width:200px; height:25px; text-align:center; font-size: 13px; color:#888; position:relative; float:left; margin-top:5px; cursor:pointer;}
+.footer-links.copy {width:250px;}
+.footer-links:hover {color:#800000;}
+
+
+/* *****OVERLAYS***** */
+.overlay {display:none; position:fixed; width:800px; height:400px; background:#fff; border:#efefef; z-index:5000; border:3px solid #999;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+    -webkit-box-shadow: 0px 2px 5px 0px #555;
+    box-shadow:     0px 2px 5px 0px #555;}
+#page-fade {position:fixed; top:0px; left:0px; background:#000; opacity:0.7; z-index:4999; display:none; width:100%; height:100%;}
+.x-close {position:absolute; top:0px; right:0px; width:35px; height:35px; cursor:pointer;}
+.inner-container {position:absolute; top:35px; left:35px; width: 710px; height: 310px; border:1px solid #efefef; padding:10px; font-size:11px;
+  overflow-y:auto;}
+.overlay-titles {font-size:13px; font-weight:bold;}
+.overlay-subtitles {font-size:12px; font-weight:bold;}
+
+
+/* *****MEMBER OPTIONS***** */
+.member-opts-info {position:relative; float:left; padding:50px; font-size:15px; text-align: center;}
+.member-opts-info span {font-size:18px; font-weight: bold;}
+.payment-options {width:100%; margin-bottom:25px; text-align: center; position:relative; float:left;}
+.payment-options span {font-size:14px; font-weight:bold; text-transform: uppercase;}
+.member-options-register {color:#888; font-size:16px; text-decoration:none;}
+.member-options-register:hover {color:#000;}
+
+
+/* *****SIDEBAR***** */
+#header #searchform {width:250px; position:relative; float:right; margin-right:20px; z-index:10px;}
+#searchform #s {margin-bottom:5px; width:170px;}
+#menu-family-trees {margin-bottom:10px; font-size:12px; width:180px;}
+#cat {font-size:12px; width:180px;}
+p#login-text {margin-top:20px;}
+.sidebar-login-title {font-size:18px; font-weight:bold;}
+
+
+/* *****ADD HISTORY FORM***** */
+.form-descr {position:relative; float:left; font-size:14px; text-align:center; padding-left:100px; padding-right:100px; padding-bottom:20px; padding-top:50px;}
+ /* ADD POST FROM FRONTEND FORM */
+.wpuf-post-form {position:relative; float:left; width:800px; margin-left:100px; padding-bottom:20px; border-bottom:2px solid #999; padding-left:200px;}
+.wpuf_submit {position:absolute; right:200px; bottom:20px;}
+#wpuf-ft-upload-pickfiles, #wpuf-attachment-upload-pickfiles {display:none;}
+#new-post-desc{width:400px;}
+ /* SUBMIT FORM TO HAVE POST CREATED */
+#content div.wpcf7 {position:relative; margin:auto; width:320px;}
+.add-left {position:relative; float:left; width: 450px; margin-left:100px; padding-left:50px;}
+.add-right {position:relative; float:left; width: 500px; }
+.add-custom-form {position:relative; float:left; width:320px;}
+.add-fields {max-width: 400px; position:relative; float:left; margin-bottom:10px; font-size:14px;}
+.add-fields input {max-width:400px; width:100%;}
+.add-area-fields {max-width: 400px; position:relative; float:left; margin-bottom:10px; font-size:14px;}
+#send-add-form {position:relative; float:left; max-width:400px; width:100%; text-align:left; margin-top:20px; margin-bottom:50px;}
+div.wpcf7-validation-errors {position:absolute; width:100%; top:-5px; color:#800000; border:1px solid #800000; left:125px;}
+span.wpcf7-not-valid-tip {top:-23px; right:0px; text-align:right; background:none !important; color:#800000; border:none;}
+button, a.button, input[type="submit"], input[type="button"], input[type="reset"], ul.button-nav li a, div.generic-button a, .comment-reply-link {width:120px; height:28px;}
+
+.dash-post-mssg {position:relative; float:left; width:100%; margin-top:50px; font-size:18px; text-align:center; line-height: 25px;}
+
+
+/* *****POSTS***** */
+.post .postmetadata {display:none;}
+.post .author-box, .post .post-content .date, .post .post-content .entry {position:relative; float:left;}
+.post .post-content {margin-left:0px;}
+.post .post-content .post-title {margin-left:125px;}
+
+
+/* *****USER SUBMITTED POSTS FORM***** */
+#content div#usp {position:relative; margin:auto; width:320px;}
+#usp #usp_form {position:relative; float:left; width:100%;}
+#usp #usp_list {position:relative; margin:auto; width:100%;}
+#usp #usp_list li {width:100%;}
+#usp #usp_list li div {position:relative; max-width:300px;}
+#usp #usp_list li label {width:100%; font-size:14px;}
+#usp #usp_list li input, #usp #usp_list li textarea {max-width:400px; width:100%;}
+#usp #usp_list li select {max-width:200px;}
+.post-form-divider {width:80%; position:relative; margin:auto; height:1px; border-top:1px solid #333; border-bottom:1px solid #999;}
+#usp #usp_list li input#user-submitted-post {width:120px;}
+
+
+/* *****BOOKS FOR SALE***** */
+#book-sales-container {float:left; font-size:15px; margin-bottom:25px; padding:50px; position:relative; margin-right:225px;}
+.book-container {position:relative; float:left; padding-top:10px; padding-bottom:20px; border-bottom:1px solid #333; width:100%;}
+.book-img {position:relative; float:left; width:75px; height:100px;}
+.book-title {position:relative; float:left; font-size:16px; font-weight:bold; width:50%;}
+.book-price {position:relative; float:right; font-size:16px; font-weight:bold; width:30%; text-align:center;}
+.book-descr {position:relative; float:left; font-size:12px; width:50%;}
+.buy-book {position:relative; float:right; width:30%; text-align:center;}
+/* Coming Soon */
+.coming-soon {display:none;}
+
+.mp_cart_actions_widget a {font-size:12px;}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rootspress 2.6.2 external\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-16 11:32-0500\n"
+"PO-Revision-Date: 2012-06-16 11:40-0500\n"
+"Last-Translator: Mike Warland <mikewarland@sympatico.ca>\n"
+"Language-Team:  <mikewarland@sympatico.ca>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: E:\\PROJECTS\\Rootspress Product\\rootsPress\\localize\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: CANADA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: E:\\PROJECTS\\Rootspress Product\\rootsPress\\localize\\rootspress\\pgv\n"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/ext.php:27
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:290
+msgid "Born"
+msgstr "nroB"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:27
+msgid "Click here to return to the home page"
+msgstr "egap emoh eht ot nruter ot ereh kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:29
+msgid "Click this icon to go to the individuals fact page"
+msgstr "egap tcaf slaudividni eht ot og ot noci siht kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:31
+msgid "Click this icon to navigate to the individuals Interactive tree."
+msgstr ".eert evitcaretnI slaudividni eht ot etagivan ot noci siht kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:33
+msgid "Click the index icon to show the index of individuals in this tree sorted alphabetically by surname then given name."
+msgstr ".eman nevig neht emanrus yb yllacitebahpla detros eert siht ni slaudividni fo xedni eht wohs ot noci xedni eht kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:36
+msgid "Interactive Tree help"
+msgstr "pleh eerT evitcaretnI"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:37
+msgid "Controls"
+msgstr "slortnoC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:39
+msgid "Click the zoom in icon to make the details larger"
+msgstr "regral sliated eht ekam ot noci ni mooz eht kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:41
+msgid "Click the zoom out icon to make the details smaller"
+msgstr "rellams sliated eht ekam ot noci tuo mooz eht kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:45
+msgid "Click the red circle icon to center the viewport on the current key person"
+msgstr "nosrep yek tnerruc eht no tropweiv eht retnec ot noci elcric der eht kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:48
+msgid "Navigating the tree"
+msgstr "eert eht gnitagivaN"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:49
+msgid "When you are inside the viewport (the cross cursor is showing), you can pan the tree up and down or left and right by holding the left mouse button down and moving the mouse accordingly."
+msgstr ".ylgnidrocca esuom eht gnivom dna nwod nottub esuom tfel eht gnidloh yb thgir dna tfel ro nwod dna pu eert eht nap nac uoy ,)gniwohs si rosruc ssorc eht( tropweiv eht edisni era uoy nehW"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:50
+msgid "Each box shows an individual. The box will be repeated for multiple marriages, these secondary boxes being less opaque."
+msgstr ".euqapo ssel gnieb sexob yradnoces eseht ,segairram elpitlum rof detaeper eb lliw xob ehT .laudividni na swohs xob hcaE"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:51
+msgid "Note than an individual may be duplicated in the tree for example if his or her parents are first cousins. Only the first occurrence will be shown with a link box for the second occurrence."
+msgstr ".ecnerrucco dnoces eht rof xob knil a htiw nwohs eb lliw ecnerrucco tsrif eht ylnO .snisuoc tsrif era stnerap reh ro sih fi elpmaxe rof eert eht ni detacilpud eb yam laudividni na naht etoN"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:52
+msgid "Clicking in a box expands that box to show additional details. Clicking again collapses the box."
+msgstr ".xob eht sespalloc niaga gnikcilC .sliated lanoitidda wohs ot xob taht sdnapxe xob a ni gnikcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:53
+msgid "Within a box you have three items you can click on."
+msgstr ".no kcilc nac uoy smeti eerht evah uoy xob a nihtiW"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:55
+msgid "Click on a name to go to the individuals fact page"
+msgstr "egap tcaf slaudividni eht ot og ot eman a no kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:56
+msgid "Click on the tree icon to set this individal as key person for the tree and center on that person"
+msgstr "nosrep taht no retnec dna eert eht rof nosrep yek sa ladividni siht tes ot noci eert eht no kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:57
+msgid "Click on a portrait to enlarge it"
+msgstr "ti egralne ot tiartrop a no kcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:61
+msgid "Personal page help"
+msgstr "pleh egap lanosreP"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:62
+msgid "Navigation icons"
+msgstr "snoci noitagivaN"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:63
+msgid "Use the icons at the right to navigate to other pages"
+msgstr "segap rehto ot etagivan ot thgir eht ta snoci eht esU"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:69
+msgid "Links"
+msgstr "skniL"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:70
+msgid "You can navigate to other individuals pages by clicking on their name (eg parents or children)."
+msgstr ".)nerdlihc ro stnerap ge( eman rieht no gnikcilc yb segap slaudividni rehto ot etagivan nac uoY"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:71
+msgid "Events and facts"
+msgstr "stcaf dna stnevE"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:72
+msgid "In the events and facts sections, clicking on a thumbnail will expand the image. If the event or fact has associated source information, clicking on the plus sign will expand that source entry. This can be collapsed again by clicking the minus  sign."
+msgstr ".ngis  sunim eht gnikcilc yb niaga despalloc eb nac sihT .yrtne ecruos taht dnapxe lliw ngis sulp eht no gnikcilc ,noitamrofni ecruos detaicossa sah tcaf ro tneve eht fI .egami eht dnapxe lliw lianbmuht a no gnikcilc ,snoitces stcaf dna stneve eht nI"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:73
+msgid "Family Links"
+msgstr "skniL ylimaF"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:74
+msgid "Family Links shows a table of parents, grandparents and great grandparents. You can click on a name to go to the ancestor's fact page"
+msgstr "egap tcaf s'rotsecna eht ot og ot eman a no kcilc nac uoY .stnerapdnarg taerg dna stnerapdnarg ,stnerap fo elbat a swohs skniL ylimaF"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:75
+msgid "Event map"
+msgstr "pam tnevE"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:76
+msgid "The event map uses Google Maps to show each recorded event in the database if place data is present in the database."
+msgstr ".esabatad eht ni tneserp si atad ecalp fi esabatad eht ni tneve dedrocer hcae wohs ot spaM elgooG sesu pam tneve ehT"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:77
+msgid "Each event shows as an icon on the map and a legend entry at the right."
+msgstr ".thgir eht ta yrtne dnegel a dna pam eht no noci na sa swohs tneve hcaE"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:78
+msgid "Note that if events are clustered at one place the icons will be overlaid on the map. They will be separate in the legend."
+msgstr ".dnegel eht ni etarapes eb lliw yehT .pam eht no dialrevo eb lliw snoci eht ecalp eno ta deretsulc era stneve fi taht etoN"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:79
+msgid "Clicking on an item in the legend table or a marker in the map pops up an information panel with additional details and also two clickable icons."
+msgstr ".snoci elbakcilc owt osla dna sliated lanoitidda htiw lenap noitamrofni na pu spop pam eht ni rekram a ro elbat dnegel eht ni meti na no gnikcilC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:80
+msgid "When clicked, these icons (Geograph and Panoramio) show a selection of places around the event place as camera icons. These can also be clicked to show current photographs people have taken in the area."
+msgstr ".aera eht ni nekat evah elpoep shpargotohp tnerruc wohs ot dekcilc eb osla nac esehT .snoci aremac sa ecalp tneve eht dnuora secalp fo noitceles a wohs )oimaronaP dna hpargoeG( snoci eseht ,dekcilc nehW"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:81
+msgid "Note, Geograph is only available for UK locations."
+msgstr ".snoitacol KU rof elbaliava ylno si hpargoeG ,etoN"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:84
+msgid "Index page help"
+msgstr "pleh egap xednI"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:91
+msgid "Home page help"
+msgstr "pleh egap emoH"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/help/help.php:92
+msgid "In the Home page, the individual referenced is the root individual. Unless changed by the administrator, that is the first person in the database."
+msgstr ".esabatad eht ni nosrep tsrif eht si taht ,rotartsinimda eht yb degnahc sselnU .laudividni toor eht si decnerefer laudividni eht ,egap emoH eht nI"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:170
+msgid "Zoom in"
+msgstr "ni mooZ"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:171
+msgid "Zoom out"
+msgstr "tuo mooZ"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:172
+msgid "Index"
+msgstr "xednI"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:173
+msgid "Home"
+msgstr "emoH"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:174
+#, php-format
+msgid "Center on %s"
+msgstr "s% no retneC"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:176
+msgid "Help"
+msgstr "pleH"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:294
+msgid "Married"
+msgstr "deirraM"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:299
+msgid "Died"
+msgstr "deiD"
+
+#: E:\PROJECTS\Rootspress
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:454
+#: Product\rootsPress\localize\rootspress\pgv/includes/classes/class_treenav.php:708
+msgid "Click here to see this family continued elsewhere on the chart"
+msgstr "trahc eht no erehwesle deunitnoc ylimaf siht ees ot ereh kcilC"
+

@@ -1,5 +1,0 @@
-[16-Jul-2012 16:58:30] PHP Notice:  Undefined index:  4ffdb8c299a29usr_ses_id in /home/tdcribb/public_html/mod/chat/vendors/freichat/server/freichat.php on line 66
-[16-Jul-2012 16:58:30] PHP Notice:  Undefined index:  4ffdb8c299a29usr_name in /home/tdcribb/public_html/mod/chat/vendors/freichat/server/freichat.php on line 67
-[16-Jul-2012 16:58:30] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/tdcribb/public_html/mod/chat/vendors/freichat/server/freichat.php on line 803
-[16-Jul-2012 16:58:30] PHP Notice:  Undefined index:  4ffdb8c299a29usr_ses_id in /home/tdcribb/public_html/mod/chat/vendors/freichat/server/freichat.php on line 66
-[16-Jul-2012 16:58:30] PHP Notice:  Undefined index:  4ffdb8c299a29usr_name in /home/tdcribb/public_html/mod/chat/vendors/freichat/server/freichat.php on line 67

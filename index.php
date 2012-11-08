@@ -1,36 +1,17 @@
 <?php
 /**
- * Elgg index page for web-based applications
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
  *
- * @package Elgg
- * @subpackage Core
+ * @package WordPress
  */
 
 /**
- * Start the Elgg engine
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
  */
-require_once(dirname(__FILE__) . "/engine/start.php");
+define('WP_USE_THEMES', true);
 
-elgg_set_context('main');
-
-// allow plugins to override the front page (return true to stop this front page code)
-if (elgg_trigger_plugin_hook('index', 'system', null, FALSE) != FALSE) {
-	exit;
-}
-
-if (elgg_is_logged_in()) {
-	forward('activity');
-}
-
-
-$content = elgg_view_title(elgg_echo('content:latest'));
-$content .= elgg_list_river();
-
-$login_box = elgg_view('core/account/login_box');
-
-$params = array(
-		'content' => $content,
-		'sidebar' => $login_box
-);
-$body = elgg_view_layout('one_sidebar', $params);
-echo elgg_view_page(null, $body);
+/** Loads the WordPress Environment and Template */
+require('./wp-blog-header.php');
