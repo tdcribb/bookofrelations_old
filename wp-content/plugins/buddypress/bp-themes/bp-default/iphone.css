@@ -1,3 +1,12 @@
+@media screen and (max-width: 900px) {
+	#tag-line {top:90px;}
+}
+
+@media screen and (max-width: 750px) {
+	#tag-line {display:none;}
+}
+
+
 @media screen and (max-width: 480px) {
 	#header-logo {width:400px; height:124px;}
 	.homepage-info {margin-right:0px; font-size:11px;}
@@ -14,11 +23,12 @@
 	.iphone-header-text-only {display:block;}
 	#container div#content {float:left;}
 	#container div#sidebar {float:left;}
+	
 }
 
 @media screen and (max-width: 320px) {
 	#header-logo {width:304px; height:95px;}
-	.homepage-info {margin-right:0px; font-size:11px;}
+	.homepage-info {margin-right:0px; font-size:11px; padding-left:10px;}
 	#nav li a {font-size:10px;}
 	#nav .menu-item {min-width:130px;}
 	.member-opts-info {font-size:11px;}
@@ -32,4 +42,5 @@
 	.iphone-header-text-only {display:block;}
 	#container div#content {float:left;}
 	#container div#sidebar {float:left;}
+	.testimonial {width:260px;}
 }

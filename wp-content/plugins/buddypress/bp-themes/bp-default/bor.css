@@ -1,6 +1,7 @@
 #wpadminbar, #wpadminbar .ab-top-secondary {background:#000;}
 
-#header {background: -moz-linear-gradient(center top , #000 0%, #2E2E2E 15%, #efefef 100%) repeat scroll 0 0 transparent !important; margin-bottom:0px; padding-top:30px;
+#header {background: -moz-linear-gradient(center left , #000000 0%, #111111 15%, #800000 100%) repeat scroll 0 0 transparent !important; 
+  margin-bottom:0px; padding-top:30px; border:#000 1px solid;
   -moz-box-shadow:  0px 2px 5px 0px #555;
     -webkit-box-shadow: 0px 2px 5px 0px #555;
     box-shadow:     0px 2px 5px 0px #555;}
@@ -15,6 +16,8 @@
 }
 .iphone-header-text-only {display:none; position:relative; float:left; margin-left:5px;}
 #header-login-register .logout {margin-left:10px;}
+div#sidebar {background:#fff;}
+.page div#container {background:url("/wp-content/images/background.png") repeat;}
 
 #content {min-height:500px;}
 .what-is {color:#ccc; cursor:pointer;}
@@ -27,6 +30,13 @@
 .gold {color:#D9D919; font-weight: bold;}
 .bronze {color:#A67D3D; font-weight: bold;}
 .silver {color:#E6E8FA; font-weight: bold;}
+
+#blog-search .post-content .entry {display:none;}
+#blog-search .post-content .date {padding-bottom:20px;}
+#blog-search div.author-box {padding:5px;}
+#blog-search h2.posttitle {font-size:22px;}
+#blog-search .post {margin-top:20px;}
+
 
 /* *****LOGIN***** */
 div#login h1 a {background:none !important; height:120px !important;}
@@ -59,11 +69,16 @@ div#login h1 {margin-bottom:20px;}
 #header-login-register a:hover {color:#efefef;}
 #nav .menu-item {position:relative; float:left;}
 .search-text {position:relative; float:right; top:-5px; color:#F0DA0D; font-size:14px; text-transform: uppercase; margin-right:20px;}
+#tag-line {position:absolute; left:410px; top:45px; width:300px;}
 
 
 /* *****HOMEPAGE***** */
 .homepage-info {position:relative; float:left; padding:50px; font-size:15px; text-align: center; margin-bottom:25px; margin-right:250px;}
 .homepage-info span {font-size:18px; font-weight: bold;}
+.testimonial {width:320px; height:135px; font-size:12px; padding:10px; position:relative; margin:auto;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
 
 
 /* *****FOOTER***** */
@@ -163,6 +178,22 @@ button, a.button, input[type="submit"], input[type="button"], input[type="reset"
 .coming-soon {display:none;}
 
 .mp_cart_actions_widget a {font-size:12px;}
+
+
+
+/* *****WIKI AS FAMILY TREE***** */
+#incsub_wiki-2 ol, #incsub_wiki-2 ul {list-style-image: inherit; list-style-position: inherit; list-style-type: inherit; padding-left:10px;}
+
+.incsub_wiki_tabs li.incsub_wiki_link_history, .incsub_wiki_tabs li.incsub_wiki_link_history a {display:none;}
+.incsub_wiki_bottom {margin-top:30px;}
+.incsub_wiki_bottom h3 {font-size:16px;}
+/*.incsub_wiki_tabs li.incsub_wiki_link_advanced_edit a, .incsub_wiki_tabs .right li.incsub_wiki_link_advanced_edit {display:none;}*/
+#incsub_wiki-2 {margin-left: -19px; max-height: 350px; overflow-y: auto; padding-left: 10px; width: 215px;}
+
+
+
+
+
 
 
 

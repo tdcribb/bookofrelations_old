@@ -654,7 +654,7 @@ class Wiki {
 			$crumbs[] = '<a href="'.get_permalink($child->ID).'" class="incsub_wiki_crumbs">'.$child->post_title.'</a>';
 		    }
 		    
-		    $bottom = "<h3>".__('Sub Wikis', $this->translation_domain) . "</h3> <ul><li>";
+		    $bottom = "<h3>".__('Links to Children', $this->translation_domain) . "</h3> <ul><li>";
 		    
 		    $bottom .= join("</li><li>", $crumbs);
 		    
@@ -965,13 +965,15 @@ class Wiki {
 	
 	$post_type_object = get_post_type_object( $post->post_type );
 	
-	if (current_user_can($post_type_object->cap->edit_post, $post->ID)) {
+	if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL >= 1){
+
 	    $tabs .= '<ul class="right">';
 	    $tabs .= '<li class="'.join(' ', $classes['edit']).'" ><a href="'.get_permalink().$seperator.'action=edit" >' . __('Edit', $this->translation_domain) . '</a></li>';
 	    if (is_user_logged_in()) {
-	    $tabs .= '<li class="'.join(' ', $classes['advanced_edit']).'" ><a href="'.get_edit_post_link().'" >' . __('Advanced', $this->translation_domain) . '</a></li>';
+	    $tabs .= '<li class="'.join(' ', $classes['advanced_edit']).'" ><a href="/wp-admin/post-new.php?post_type=incsub_wiki" >' . __('Advanced', $this->translation_domain) . '</a></li>';
 	    }
-	    $tabs .= '<li class="'.join(' ', $classes['create']).'"><a href="'.get_permalink().$seperator.'action=edit&eaction=create">'.__('Create new', $this->translation_domain).'</a></li>';
+	    $tabs .= '<li class="'.join(' ', $classes['create']).'"><a href="'.get_permalink().$seperator.'action=edit&eaction=create">'.__('Add New Child', $this->translation_domain).'</a></li>';
+	    
 	    $tabs .= '</ul>';
 	}
 	

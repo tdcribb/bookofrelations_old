@@ -46,6 +46,7 @@
 						<img id="header-logo" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/images/logo.png" />
 					</a>
 				</div>
+				<img id="tag-line" src="<?php echo esc_url(home_url('/')); ?>wp-content/images/tag-line.png" />
 				<div id="header-search-cont">
 					<div class="search-text">Begin your search here...</div></br>
 					<?php get_search_form(); ?>
