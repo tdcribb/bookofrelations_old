@@ -21,13 +21,13 @@
 
 <div id="item-header-content">
 <?php if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 4){ ?>
-    You currently are a <span class="platinum">Platinum Member</span> (4).
+    You currently are a <span class="platinum">Publishing Member</span>.
 <?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 3){ ?>
-    You currently are a <span class="gold">Gold Member</span> (3). 
+    You currently are a <span class="gold">Publishing Member</span>. 
 <?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 2){ ?>
-    You currently are a <span class="silver">Silver Member</span> (2).
+    You currently are a <span class="silver">Publishing Member (Yearly Subscriber)</span>.
 <?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 1){ ?>
-    You currently are a <span class="bronze">Bronze Member</span> (1).
+    You currently are a <span class="bronze">Publishing Member (Monthly Subscriber)</span>.
 <?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 0){ ?>
     You are currently logged in as a Free Subscriber. Upgrade to a Bronze, Silver, or Gold to add your history.
 <?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === -1){ ?>

@@ -22,29 +22,28 @@ Template Name: Member Options
 					a better understanding of our past, we can have a tighter grasp on who we may become in the future.
 				</div>
 				<div class="payment-options">
-					<span>Publishing Membership:</span></br>
-					A bi-monthly fee of $19.95 will gain you access to add your family history, </br>
+					<span>Publishing Membership: Monthly</span></br>
+					A monthly fee of $9.95 will gain you access to add your family history, </br>
 					digitized family books, family trees, and stories with unlimited submissions.</br>
-					<span><?php echo do_shortcode('[s2Member-PayPal-Button level="1" ccaps="" desc="Publishing Membership" ps="BOR_PayPal" lc="" cc="USD" dg="0" ns="1" 
-					custom="bookofrelations.com" ta="0" tp="0" tt="D" ra="19.95" rp="1" rt="M" rr="1" rrt="" rra="1" image="default" output="button" /]') ?></span>
-					
+					<span>PayPal payment option coming soon</span>
+					</br>
+				</div>
+				<div class="payment-options">
+					<span>Publishing Membership: Yearly</span></br>
+					A yearly fee of $99.95 will gain you access to add your family history, </br>
+					digitized family books, family trees, and stories with unlimited submissions.</br>
+					<span>PayPal payment option coming soon</span>
 					</br>
 				</div>
 				<div class="payment-options">
 					<span>Free Subscriber:</span></br>
 					As a Free Subscriber you can search all posted information within the site and use the site to communicate with </br>
-					other members. The only restriction is not being able to add your own historical posts about people, </br>
-					family history, stories, family tree, etc for others to research and view.</br></br>
+					other members. Find historical posts about people, family history, stories, family trees, etc.</br></br>
 					<a class="member-options-register button" href="<?php echo esc_url( home_url( '/' ) ); ?>register/" tabindex="10">Register for Free</a></br>
 					
 				</div>
 				</br>
 				
-<!-- 				Platinum Member:
-				A yearly fee of $49.95 will gain you access to add your family history and stories with unlimited data.</br>
-				<?//php echo do_shortcode('[s2Member-PayPal-Button level="4" ccaps="" desc="Platinum Member" ps="paypal" lc="" cc="USD" dg="0" ns="1" custom="bookofrelations.local" 
-				//ta="0" tp="0" tt="D" ra="49.95" rp="1" rt="Y" rr="1" rrt="" rra="1" image="default" output="button" /]') ?>
-			</br></br> -->
 			</div><!-- #content -->
 		</div><!-- #primary -->
 

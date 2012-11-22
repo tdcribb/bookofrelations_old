@@ -103,7 +103,7 @@ get_header( 'buddypress' ); ?>
 
 							<?php if ( bp_is_active( 'forums' ) ) : ?>
 
-								<option value="new_forum_topic"><?php _e( 'Forum Topics', 'buddypress' ); ?></option>
+								<option value="new_forum_topic" class="test"><?php _e( 'Forum Topics', 'buddypress' ); ?></option>
 								<option value="new_forum_post"><?php _e( 'Forum Replies', 'buddypress' ); ?></option>
 
 							<?php endif; ?>

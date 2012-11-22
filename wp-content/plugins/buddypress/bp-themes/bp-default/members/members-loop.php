@@ -45,7 +45,21 @@
 			<div class="item">
 				<div class="item-title">
 					<a href="<?php bp_member_permalink(); ?>"><?php bp_member_name(); ?></a>
-
+					<div class="members-each-level">
+						<?php if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 4){ ?>
+						    <span class="platinum">Publishing Member</span>
+						<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 3){ ?>
+						    <span class="gold">Publishing Member</span>
+						<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 2){ ?>
+						    <span class="silver">Publishing Member</span>
+						<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 1){ ?>
+						    <span class="bronze">Publishing Member </span>
+						<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 0){ ?>
+						    
+						<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === -1){ ?>
+						   
+						<?php } ?>
+					</div></br>
 					<?php if ( bp_get_member_latest_update() ) : ?>
 
 						<span class="update"> <?php bp_member_latest_update(); ?></span>

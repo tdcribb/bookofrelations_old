@@ -38,6 +38,8 @@
 							<p class="postmetadata"><?php the_tags( '<span class="tags">' . __( 'Tags: ', 'buddypress' ), ', ', '</span>' ); ?> <span class="comments"><?php comments_popup_link( __( 'No Comments &#187;', 'buddypress' ), __( '1 Comment &#187;', 'buddypress' ), __( '% Comments &#187;', 'buddypress' ) ); ?></span></p>
 						</div>
 
+						<a class="continue-reading-post" href="<?php the_permalink(); ?>" rel="bookmark" title="<?php _e( 'Permanent Link to', 'buddypress' ); ?> <?php the_title_attribute(); ?>">Continue Reading...</a>
+
 					</div>
 
 					<?php do_action( 'bp_after_blog_post' ); ?>
@@ -48,7 +50,7 @@
 
 			<?php else : ?>
 
-				<h2 class="center"><?php _e( 'No posts found. Try a different search?', 'buddypress' ); ?></h2>
+				<h2 class="center"><?php _e( 'No results found. Try a different search?', 'buddypress' ); ?></h2>
 				<?php get_search_form(); ?>
 
 			<?php endif; ?>

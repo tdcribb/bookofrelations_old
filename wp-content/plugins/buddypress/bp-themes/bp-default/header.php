@@ -30,6 +30,7 @@
 			<?php if (! is_user_logged_in() ) { ?>
 				<div id="header-login-register">
 					<a class="header-register" href="<?php echo esc_url( home_url( '/' ) ); ?>membership-options/" tabindex="10">REGISTER </a>
+					<a class="header-login-left" href="/"> LOGIN</a>
 					<div class="iphone-header-text-only">or </div><a class="iphone-header-text-only" href="#sidebar-login-form"> Login Below</a>
 				</div>
 			<?php } else { ?>

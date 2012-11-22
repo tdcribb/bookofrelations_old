@@ -15,9 +15,14 @@
   box-shadow:     0px 2px 5px 0px #555;
 }
 .iphone-header-text-only {display:none; position:relative; float:left; margin-left:5px;}
+.header-login-left {position:relative; float:left; margin-left:10px;}
 #header-login-register .logout {margin-left:10px;}
 div#sidebar {background:#fff;}
-.page div#container {background:url("/wp-content/images/background.png") repeat;}
+div#container {background:url("/wp-content/images/background.png") repeat;}
+div#subnav.item-list-tabs {background: #efefef;}
+ul.item-list li {border-bottom:1px solid #999; border-top:1px solid #efefef; }
+ul.item-list.activity-list li {padding-bottom:10px;}
+div.post-content {border-bottom:1px solid #999; border-top:1px solid #999; padding-top:10px; padding-bottom:10px;}
 
 #content {min-height:500px;}
 .what-is {color:#ccc; cursor:pointer;}
@@ -31,12 +36,14 @@ div#sidebar {background:#fff;}
 .bronze {color:#A67D3D; font-weight: bold;}
 .silver {color:#E6E8FA; font-weight: bold;}
 
-#blog-search .post-content .entry {display:none;}
-#blog-search .post-content .date {padding-bottom:20px;}
-#blog-search div.author-box {padding:5px;}
-#blog-search h2.posttitle {font-size:22px;}
-#blog-search .post {margin-top:20px;}
-
+#blog-search h2.pagetitle {display:none;}
+#blog-search .post-content .entry {max-height:125px; overflow:hidden; width:100%;}
+#blog-search .post-content .date {padding-bottom:10px; font-size:10px; border:none;}
+#blog-search div.author-box {padding:0px; margin-bottom:0px;}
+#blog-search h2.posttitle {font-size:20px;}
+#blog-search .post {margin-top:20px; border-bottom:3px solid #999; margin-bottom:10px; padding-bottom:5px; position:relative;}
+.continue-reading-post {position:absolute; bottom:0px; right:10px; color:#800; text-decoration:underline;}
+p.postmetadata .comments {display:none;}
 
 /* *****LOGIN***** */
 div#login h1 a {background:none !important; height:120px !important;}
@@ -103,6 +110,7 @@ div#login h1 {margin-bottom:20px;}
   overflow-y:auto;}
 .overlay-titles {font-size:13px; font-weight:bold;}
 .overlay-subtitles {font-size:12px; font-weight:bold;}
+.bullet-points {list-style: disc inside none;}
 
 
 /* *****MEMBER OPTIONS***** */
@@ -124,7 +132,8 @@ p#login-text {margin-top:20px;}
 
 
 /* *****ADD HISTORY FORM***** */
-.form-descr {position:relative; float:left; font-size:14px; text-align:center; padding-left:100px; padding-right:100px; padding-bottom:20px; padding-top:50px;}
+.form-descr {position:relative; float:left; font-size:14px; text-align:center; padding-left:100px; padding-right:100px; padding-bottom:20px; padding-top:50px;
+    font-weight:bold;}
  /* ADD POST FROM FRONTEND FORM */
 .wpuf-post-form {position:relative; float:left; width:800px; margin-left:100px; padding-bottom:20px; border-bottom:2px solid #999; padding-left:200px;}
 .wpuf_submit {position:absolute; right:200px; bottom:20px;}
@@ -162,8 +171,10 @@ button, a.button, input[type="submit"], input[type="button"], input[type="reset"
 #usp #usp_list li label {width:100%; font-size:14px;}
 #usp #usp_list li input, #usp #usp_list li textarea {max-width:400px; width:100%;}
 #usp #usp_list li select {max-width:200px;}
-.post-form-divider {width:80%; position:relative; margin:auto; height:1px; border-top:1px solid #333; border-bottom:1px solid #999;}
+.post-form-divider {width:1px; position:relative; float:left; height:600px; border-left:1px solid #333; border-right:1px solid #999; margin-top:50px;}
 #usp #usp_list li input#user-submitted-post {width:120px;}
+
+.form-descr-container {position:relative; float:left; width:48%; min-width:310px;}
 
 
 /* *****BOOKS FOR SALE***** */
@@ -191,8 +202,19 @@ button, a.button, input[type="submit"], input[type="button"], input[type="reset"
 #incsub_wiki-2 {margin-left: -19px; max-height: 350px; overflow-y: auto; padding-left: 10px; width: 215px;}
 
 
+/* *****rootsPersona***** */
+.rp_banner {background:#800000; color:#fff; border:1px solid #000;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
+div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup, .rp_truncate div.rp_header img.rp_headerbox {
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
 
 
+/* *****ACTIVITY***** */
+#activity-filter-select {display:none;}
 
 
 
