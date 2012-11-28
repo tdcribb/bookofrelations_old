@@ -1259,7 +1259,25 @@ function bp_core_signup_send_validation_email( $user_id, $user_email, $key ) {
 
 	$from_name = ( '' == bp_get_option( 'blogname' ) ) ? __( 'BuddyPress', 'buddypress' ) : esc_html( bp_get_option( 'blogname' ) );
 
-	$message = sprintf( __( "Thanks for registering! To complete the activation of your account please click the following link:\n\n%1\$s\n\n", 'buddypress' ), $activate_url );
+	$message = sprintf( __( "
+			<table>
+				<tr>
+					<td>
+						<img src='/wp-content/images/paypal_logo.png' />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Thanks for registering!
+					</td>
+				</tr>
+				<tr>
+					<td>
+						To complete the activation of your account please click the following link:\n\n%1\$s\n\n
+					</td>
+				</tr>
+			</table>
+		", 'buddypress' ), $activate_url );
 	$subject = '[' . $from_name . '] ' . __( 'Activate Your Account', 'buddypress' );
 
 	// Send the message

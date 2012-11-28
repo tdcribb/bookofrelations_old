@@ -20,19 +20,8 @@
 </div><!-- #item-header-avatar -->
 
 <div id="item-header-content">
-<?php if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 4){ ?>
-    You currently are a <span class="platinum">Publishing Member</span>.
-<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 3){ ?>
-    You currently are a <span class="gold">Publishing Member</span>. 
-<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 2){ ?>
-    You currently are a <span class="silver">Publishing Member (Yearly Subscriber)</span>.
-<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 1){ ?>
-    You currently are a <span class="bronze">Publishing Member (Monthly Subscriber)</span>.
-<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 0){ ?>
-    You are currently logged in as a Free Subscriber. Upgrade to a Bronze, Silver, or Gold to add your history.
-<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === -1){ ?>
-    A User is not logged in at all.
-<?php } ?>
+
+
 	<h2>
 		<a href="<?php bp_displayed_user_link(); ?>"><?php bp_displayed_user_fullname(); ?></a>
 	</h2>

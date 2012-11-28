@@ -46,19 +46,15 @@
 				<div class="item-title">
 					<a href="<?php bp_member_permalink(); ?>"><?php bp_member_name(); ?></a>
 					<div class="members-each-level">
-						<?php if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 4){ ?>
-						    <span class="platinum">Publishing Member</span>
-						<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 3){ ?>
-						    <span class="gold">Publishing Member</span>
-						<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 2){ ?>
-						    <span class="silver">Publishing Member</span>
-						<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 1){ ?>
-						    <span class="bronze">Publishing Member </span>
-						<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 0){ ?>
-						    
-						<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === -1){ ?>
-						   
-						<?php } ?>
+						 <?php
+							$user=bp_get_member_user_id();
+							$s2member_var = get_user_field ("s2member_access_role", $user);
+							if ($s2member_var == 's2member_level1' || $s2member_var == 's2member_level2' || $s2member_var == 's2member_level3' || $s2member_var == 's2member_level4') {
+								echo "Publishing Member";
+							}
+						?>
+
+
 					</div></br>
 					<?php if ( bp_get_member_latest_update() ) : ?>
 

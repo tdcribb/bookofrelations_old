@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	centerOverlay();
+	isTermsChecked();
 
 	$('.policy-link').click(function() {
 		$('.overlay').hide();
@@ -23,6 +24,15 @@ $(document).ready(function() {
 		$('.overlay').fadeOut();
 		$('#page-fade').fadeOut();
 	});
+
+	$('.agree-checkbox').click(function() {
+		var c = this.checked ? '#f00' : '#09f';
+		if (c == '#f00') {
+			$('#cover-submit').css('display', 'none');
+		} else {
+			$('#cover-submit').css('display', 'block');
+		}
+	});
 });
 
 $(window).resize(function() {
@@ -36,5 +46,14 @@ function centerOverlay() {
 		newLeft = (wW - 800) /2;
 	if($(window).height() > 420) {
 		$('.overlay').css({'left':newLeft, 'top':newTop});
+	}
+}
+
+function isTermsChecked() {
+	var c = this.checked ? '#f00' : '#09f';
+	if (c == '#f00') {
+		$('#cover-submit').css('display', 'none');
+	} else {
+		$('#cover-submit').css('display', 'block');
 	}
 }

@@ -44,6 +44,7 @@ div.post-content {border-bottom:1px solid #999; border-top:1px solid #999; paddi
 #blog-search .post {margin-top:20px; border-bottom:3px solid #999; margin-bottom:10px; padding-bottom:5px; position:relative;}
 .continue-reading-post {position:absolute; bottom:0px; right:10px; color:#800; text-decoration:underline;}
 p.postmetadata .comments {display:none;}
+div.page, div.post, div.attachment {position:relative;}
 
 /* *****LOGIN***** */
 div#login h1 a {background:none !important; height:120px !important;}
@@ -56,11 +57,16 @@ div#login h1 {margin-bottom:20px;}
 
 /* *****REGISTER***** */
 #register-page #basic-details-section, #register-page #profile-details-section, #register-page .register-section {position:relative; float:left !important; min-width:100%; text-align:left;}
-#signup_form.standard-form div.submit {float:left !important;}
+#signup_form.standard-form div.submit {float:left !important; position:relative !important;}
 #register-page form input {max-width:300px;}
 .registration div#content .padder {margin-right:0px;}
 #signup_form p {font-size:14px;}
 #signup_form.standard-form div div.error {background:#800000; border:1px solid #000; color:#fff; font-size:11px; max-width:500px;}
+#cover-submit {position:absolute; top:15px; left:0px; width:120px; height:28px; background:#fff; opacity:0.7; z-index:100;}
+#agree-terms {position:relative; float:left; margin-top:10px;}
+.reg-accept-terms {text-decoration:underline; color:#666; cursor:pointer;}
+
+.small-terms-text {font-size:10px; color:#555;}
 
 
 /* *****HEADER***** */
@@ -95,7 +101,7 @@ div#login h1 {margin-bottom:20px;}
     box-shadow:     0px 2px 5px 0px #555;}
 #footer-link-cont {position:relative; margin:auto; width:100%;}
 .footer-links {width:200px; height:25px; text-align:center; font-size: 13px; color:#888; position:relative; float:left; margin-top:5px; cursor:pointer;}
-.footer-links.copy {width:250px;}
+.footer-links.copy {width:300px; font-size:11px;}
 .footer-links:hover {color:#800000;}
 
 
@@ -108,9 +114,10 @@ div#login h1 {margin-bottom:20px;}
 .x-close {position:absolute; top:0px; right:0px; width:35px; height:35px; cursor:pointer;}
 .inner-container {position:absolute; top:35px; left:35px; width: 710px; height: 310px; border:1px solid #efefef; padding:10px; font-size:11px;
   overflow-y:auto;}
-.overlay-titles {font-size:13px; font-weight:bold;}
+.overlay-titles {font-size:15px; font-weight:bold;}
 .overlay-subtitles {font-size:12px; font-weight:bold;}
 .bullet-points {list-style: disc inside none;}
+#policy-overlay ul, #policy-overlay li {list-style: disc inside none;}
 
 
 /* *****MEMBER OPTIONS***** */
@@ -185,6 +192,17 @@ button, a.button, input[type="submit"], input[type="button"], input[type="reset"
 .book-price {position:relative; float:right; font-size:16px; font-weight:bold; width:30%; text-align:center;}
 .book-descr {position:relative; float:left; font-size:12px; width:50%;}
 .buy-book {position:relative; float:right; width:30%; text-align:center;}
+.mp_product_name a {color:#666;}
+.mp_product_price {font-weight:bold;}
+
+div.post table, div.page table, div.post table td, div.page table td, div.post table th, div.page table th {border:1px solid #999;}
+.mp_button_addcart, .mp_button_buynow, .mp_cart_col_updatecart input[type="submit"], #mp_shipping_submit, #mp_payment_confirm, #mp_payment_submit,
+    .mp_cart_direct_checkout a.mp_cart_direct_checkout_link {width:150px; height:30px;}
+#payment-message {font-size:16px;}
+
+div#sidebar table {margin-left:-18px; width:100%;}
+
+
 /* Coming Soon */
 .coming-soon {display:none;}
 
@@ -215,7 +233,12 @@ div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup,
 
 /* *****ACTIVITY***** */
 #activity-filter-select {display:none;}
+#members-list span.activity {display:none;}
+.user-sidebar-level {margin-top:10px; font-weight:bold; position:relative; float:left;}
+.user-sidebar-mssgs {text-align:center; position:relative; float:left; margin-bottom:10px; margin-top:5px;}
 
+
+/* *****PROFILE***** */
 
 
 

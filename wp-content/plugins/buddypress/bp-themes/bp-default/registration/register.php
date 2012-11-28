@@ -24,7 +24,8 @@
 
 				<?php do_action( 'template_notices' ); ?>
 
-				<p><?php _e( 'Registering for this site is easy, just fill in the fields below and we\'ll get a new account set up for you in no time.', 'buddypress' ); ?></p>
+				<p><?php _e( 'Registering for this site is easy, just fill in the fields below and we\'ll get a new account set up for you in no time.</br>
+				<em>*Once you have completed registering, check your email to activate your account.</em>', 'buddypress' ); ?></p>
 
 				<?php do_action( 'bp_before_account_details_fields' ); ?>
 
@@ -237,7 +238,9 @@
 
 				<?php do_action( 'bp_before_registration_submit_buttons' ); ?>
 
+				<div id="agree-terms"><input type="checkbox" class="agree-checkbox" /> I agree to the <span class="reg-accept-terms policy-link">Terms of Use and Privacy Policy</span> for Book of Relations.</div>
 				<div class="submit">
+					<div id="cover-submit"></div>
 					<input type="submit" name="signup_submit" id="signup_submit" value="<?php _e( 'Complete Sign Up', 'buddypress' ); ?>" />
 				</div>
 

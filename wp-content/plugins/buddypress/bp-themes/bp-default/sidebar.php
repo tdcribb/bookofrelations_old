@@ -15,9 +15,11 @@
 			</a>
 
 			<h4><?php echo bp_core_get_userlink( bp_loggedin_user_id() ); ?></h4>
-			<a class="button logout" href="<?php echo wp_logout_url( wp_guess_url() ); ?>"><?php _e( 'Log Out', 'buddypress' ); ?></a>
+			<a class="button logout" href="<?php echo wp_logout_url( wp_guess_url() ); ?>"> <?php _e( 'Log Out', 'buddypress' ); ?></a>
 
-			<?php do_action( 'bp_sidebar_me' ); ?>
+			<?php do_action( 'bp_sidebar_me' ); ?></br>
+			<div class="user-sidebar-level"><?php echo S2MEMBER_CURRENT_USER_ACCESS_LABEL; ?></div>
+			<div class="user-sidebar-mssgs">Unread Messages: <a href="<?php echo bp_loggedin_user_domain();?>messages/"><?php echo messages_get_unread_count(); ?></a></div>
 		</div>
 
 		<?php do_action( 'bp_after_sidebar_me' ); ?>

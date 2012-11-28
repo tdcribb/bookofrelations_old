@@ -26,7 +26,7 @@
 	.iphone-header-text-only {display:block;}
 	#container div#content {float:left;}
 	#container div#sidebar {float:left;}
-	
+	.footer-links {width:300px; margin-left:10px;}
 }
 
 @media screen and (max-width: 320px) {
@@ -46,4 +46,5 @@
 	#container div#content {float:left;}
 	#container div#sidebar {float:left;}
 	.testimonial {width:260px;}
+	
 }

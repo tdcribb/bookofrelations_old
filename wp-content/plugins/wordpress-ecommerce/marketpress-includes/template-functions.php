@@ -656,7 +656,8 @@ function _mp_cart_payment($type, $echo = false) {
 
   $content = '';
   if ($type == 'form') {
-    $content = '<form id="mp_payment_form" method="post" action="'.mp_checkout_step_url('checkout').'">';
+    $content = '<form id="mp_payment_form" method="post" action="'.mp_checkout_step_url('checkout').'">
+    <span id="payment-message">Book of Relations utilizes PayPal for easy payment and privacy. By clicking on "Continue Checkout" button you will be taken to a PayPal page for payment information.</span>';
     if (count((array)$mp_gateway_active_plugins) == 1) {
       $content .= '<input type="hidden" name="mp_choose_gateway" value="'.$mp_gateway_active_plugins[0]->plugin_name.'" />';
     } else if (count((array)$mp_gateway_active_plugins) > 1) {
