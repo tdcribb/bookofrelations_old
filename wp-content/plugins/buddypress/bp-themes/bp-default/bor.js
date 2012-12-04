@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	centerOverlay();
 	isTermsChecked();
+	addReportAbuseTitle();
 
 	$('.policy-link').click(function() {
 		$('.overlay').hide();
@@ -20,6 +21,12 @@ $(document).ready(function() {
 		$('#member-overlay').fadeIn();
 	});
 
+	$('.report-abuse').click(function() {
+		$('.overlay').hide();
+		$('#page-fade').show();
+		$('#report-abuse-overlay').fadeIn();
+	});
+
 	$('.x-close').click(function() {
 		$('.overlay').fadeOut();
 		$('#page-fade').fadeOut();
@@ -33,11 +40,23 @@ $(document).ready(function() {
 			$('#cover-submit').css('display', 'block');
 		}
 	});
+
+	$('#blog-search .product').each(function() {
+		$('#blog-search .product .continue-reading-post').html('Visit Bookstore...');
+		$('#blog-search .product .continue-reading-post').css('bottom', 23+'px');
+	});
+
+	
 });
 
 $(window).resize(function() {
 	centerOverlay();
 });
+
+function addReportAbuseTitle() {
+	var title = 'Report Post: '+$('.posttitle').html();
+	$('#report-abuse-overlay input#report-title').val(title);
+}
 
 function centerOverlay() {
 	var wH = $(window).height(),

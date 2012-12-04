@@ -14,6 +14,10 @@
 				<div id="member" class="footer-links member-link">
 					Membership Info
 				</div>
+				<div id="twitter" class="footer-links twitter-link">
+					<a href="https://twitter.com/BookOfRelation" class="twitter-follow-button" data-show-count="false">Follow @BookOfRelation</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
 				<div class="footer-links copy">
 					Copyright &#169; 2012 Lucas &amp Cribb Digital Developers, LLC
 				</div>
@@ -340,6 +344,19 @@
 					<?php echo do_shortcode('[s2Member-PayPal-Button cancel="1" image="default" output="anchor" /]') ?>
 			</div>
 		</div>
+
+		<div id="report-abuse-overlay" class="overlay">
+			<img class="x-close" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/images/closex.png ?>">
+			<div class="report-abuse-title">REPORT ABUSE</div>
+			<div class="inner-container">
+				<?php echo do_shortcode('[contact-form-7 id="3363" title="Report Abuse"]') ?>
+			</div>
+		</div>
+
+
+
+
+
 		<div id="page-fade"></div>
 	</body>
 

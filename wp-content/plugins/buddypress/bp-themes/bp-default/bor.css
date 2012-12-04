@@ -23,6 +23,16 @@ div#subnav.item-list-tabs {background: #efefef;}
 ul.item-list li {border-bottom:1px solid #999; border-top:1px solid #efefef; }
 ul.item-list.activity-list li {padding-bottom:10px;}
 div.post-content {border-bottom:1px solid #999; border-top:1px solid #999; padding-top:10px; padding-bottom:10px;}
+.comments-closed {display:none;}
+.post .post-content .date {width:100%;}
+.alignright {position:absolute; top:-30px; right:0px;}
+.alignleft {position:absolute; top:-30px; left:0px;}
+.alignright a, .alignleft a {color:#888;}
+.alignright a:hover, .alignleft a:hover {color:#800;}
+div.post {overflow:visible;}
+#blog-single {margin-top:20px; overflow:visible;}
+#blog-single .wpuf-attachments {display:block;}
+#blog-single .post .postmetadata {display:block;}
 
 #content {min-height:500px;}
 .what-is {color:#ccc; cursor:pointer;}
@@ -36,15 +46,17 @@ div.post-content {border-bottom:1px solid #999; border-top:1px solid #999; paddi
 .bronze {color:#A67D3D; font-weight: bold;}
 .silver {color:#E6E8FA; font-weight: bold;}
 
+#blog-search {margin-top:20px; overflow:visible;}
 #blog-search h2.pagetitle {display:none;}
 #blog-search .post-content .entry {max-height:125px; overflow:hidden; width:100%;}
 #blog-search .post-content .date {padding-bottom:10px; font-size:10px; border:none;}
 #blog-search div.author-box {padding:0px; margin-bottom:0px;}
 #blog-search h2.posttitle {font-size:20px;}
-#blog-search .post {margin-top:20px; border-bottom:3px solid #999; margin-bottom:10px; padding-bottom:5px; position:relative;}
+#blog-search .post {margin-top:20px; border-bottom:3px ridge #999; margin-bottom:10px; padding-bottom:5px; position:relative; float:left; width:100%;}
 .continue-reading-post {position:absolute; bottom:0px; right:10px; color:#800; text-decoration:underline;}
 p.postmetadata .comments {display:none;}
 div.page, div.post, div.attachment {position:relative;}
+
 
 /* *****LOGIN***** */
 div#login h1 a {background:none !important; height:120px !important;}
@@ -100,9 +112,10 @@ div#login h1 {margin-bottom:20px;}
     -webkit-box-shadow: 0px 2px 5px 0px #555;
     box-shadow:     0px 2px 5px 0px #555;}
 #footer-link-cont {position:relative; margin:auto; width:100%;}
-.footer-links {width:200px; height:25px; text-align:center; font-size: 13px; color:#888; position:relative; float:left; margin-top:5px; cursor:pointer;}
+.footer-links {width:150px; height:25px; text-align:center; font-size: 13px; color:#888; position:relative; float:left; margin-top:5px; cursor:pointer;}
 .footer-links.copy {width:300px; font-size:11px;}
 .footer-links:hover {color:#800000;}
+.twitter-link {width:200px;}
 
 
 /* *****OVERLAYS***** */
@@ -142,25 +155,30 @@ p#login-text {margin-top:20px;}
 .form-descr {position:relative; float:left; font-size:14px; text-align:center; padding-left:100px; padding-right:100px; padding-bottom:20px; padding-top:50px;
     font-weight:bold;}
  /* ADD POST FROM FRONTEND FORM */
-.wpuf-post-form {position:relative; float:left; width:800px; margin-left:100px; padding-bottom:20px; border-bottom:2px solid #999; padding-left:200px;}
-.wpuf_submit {position:absolute; right:200px; bottom:20px;}
-#wpuf-ft-upload-pickfiles, #wpuf-attachment-upload-pickfiles {display:none;}
+.wpuf-post-form {position:relative; float:left; padding-bottom:20px; border-bottom:2px solid #999;}
+/*.wpuf_submit {position:absolute; right:200px; bottom:20px;}*/
+#wpuf-ft-upload-pickfiles, #wpuf-attachment-upload-pickfiles {}
+#new-post-desc_ifr {background:#fff;}
 #new-post-desc{width:400px;}
+.wpuf-post-form label {width:100%;}
  /* SUBMIT FORM TO HAVE POST CREATED */
 #content div.wpcf7 {position:relative; margin:auto; width:320px;}
 .add-left {position:relative; float:left; width: 450px; margin-left:100px; padding-left:50px;}
 .add-right {position:relative; float:left; width: 500px; }
 .add-custom-form {position:relative; float:left; width:320px;}
-.add-fields {max-width: 400px; position:relative; float:left; margin-bottom:10px; font-size:14px;}
-.add-fields input {max-width:400px; width:100%;}
+.wpuf-post-form, #add-post-form {position:relative; float:left; min-width:470px; padding-left:5px;}
+.add-fields, .wpuf-post-form li, .wpuf-post-form li label {max-width: 400px; position:relative; float:left; margin-bottom:10px; font-size:14px; font-weight:normal;}
+.add-fields input, .wpuf-post-form input[type="text"] {max-width:400px; width:100%;}
+#wpuf-post-area {width:475px; position:relative; margin:auto;}
 .add-area-fields {max-width: 400px; position:relative; float:left; margin-bottom:10px; font-size:14px;}
 #send-add-form {position:relative; float:left; max-width:400px; width:100%; text-align:left; margin-top:20px; margin-bottom:50px;}
 div.wpcf7-validation-errors {position:absolute; width:100%; top:-5px; color:#800000; border:1px solid #800000; left:125px;}
 span.wpcf7-not-valid-tip {top:-23px; right:0px; text-align:right; background:none !important; color:#800000; border:none;}
 button, a.button, input[type="submit"], input[type="button"], input[type="reset"], ul.button-nav li a, div.generic-button a, .comment-reply-link {width:120px; height:28px;}
-
+#usp_success_message {color:#800;}
 .dash-post-mssg {position:relative; float:left; width:100%; margin-top:50px; font-size:18px; text-align:center; line-height: 25px;}
 
+#wpuf_edit_post_form #wpuf-ft-upload-container #wpuf-ft-upload-pickfiles {top:50px;}
 
 /* *****POSTS***** */
 .post .postmetadata {display:none;}
@@ -170,16 +188,17 @@ button, a.button, input[type="submit"], input[type="button"], input[type="reset"
 
 
 /* *****USER SUBMITTED POSTS FORM***** */
-#content div#usp {position:relative; margin:auto; width:320px;}
-#usp #usp_form {position:relative; float:left; width:100%;}
+#content div#user-submitted-posts  {position:relative; margin:auto; width:320px;}
+#user-submitted-posts form {position:relative; float:left; width:100%;}
 #usp #usp_list {position:relative; margin:auto; width:100%;}
-#usp #usp_list li {width:100%;}
-#usp #usp_list li div {position:relative; max-width:300px;}
-#usp #usp_list li label {width:100%; font-size:14px;}
-#usp #usp_list li input, #usp #usp_list li textarea {max-width:400px; width:100%;}
-#usp #usp_list li select {max-width:200px;}
+div#user-submitted-posts fieldset {width:100%;}
+div#user-submitted-posts fieldset div {position:relative; max-width:300px;}
+div#user-submitted-posts fieldset label {width:100%; font-size:14px;}
+div#user-submitted-posts fieldset input, div#user-submitted-posts fieldset textarea {max-width:400px; width:100%;}
+div#user-submitted-posts fieldset select {max-width:200px;}
 .post-form-divider {width:1px; position:relative; float:left; height:600px; border-left:1px solid #333; border-right:1px solid #999; margin-top:50px;}
-#usp #usp_list li input#user-submitted-post {width:120px;}
+div#user-submitted-posts fieldset input#user-submitted-post {width:120px;}
+
 
 .form-descr-container {position:relative; float:left; width:48%; min-width:310px;}
 
@@ -194,6 +213,15 @@ button, a.button, input[type="submit"], input[type="button"], input[type="reset"
 .buy-book {position:relative; float:right; width:30%; text-align:center;}
 .mp_product_name a {color:#666;}
 .mp_product_price {font-weight:bold;}
+#blog-search .product, #blog-search .page {border-top:none; border-bottom:3px ridge #999999;}
+#blog-search .page {margin-bottom:20px; padding-bottom:20px;}
+#blog-search .product {margin-bottom:20px; padding-bottom:20px;}
+#blog-search .product .postmetadata, #blog-search .page .postmetadata {display:none;}
+#blog-search .product .wpuf-attachments {display:block;}
+
+#blog-page .product img.alignleft {position:relative; top:0;}
+.mp_cart_widget_content .mp_cart_col_thumb img.alignleft {position:relative; top:0;}
+
 
 div.post table, div.page table, div.post table td, div.page table td, div.post table th, div.page table th {border:1px solid #999;}
 .mp_button_addcart, .mp_button_buynow, .mp_cart_col_updatecart input[type="submit"], #mp_shipping_submit, #mp_payment_confirm, #mp_payment_submit,
@@ -240,6 +268,16 @@ div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup,
 
 /* *****PROFILE***** */
 
+
+/* *****REPORT ABUSE***** */
+.report-abuse {position:absolute; bottom:1px; right:0px; width:90px; height:16px; background:#888; color:#fff; cursor:pointer; 
+    padding-bottom:2px; padding-left:18px; font-size:11px; border:1px solid #000;}
+.report-abuse:hover {background:#800; color:#fff;}
+#report-abuse-left, #report-abuse-right {width:330px; height:290px; padding:10px; position:relative; float:left;}
+.report-fields {width:90%; position:relative; float:left; margin-bottom:10px; font-size: 13px;}
+.report-area-fields {width:90%; position:relative; float:left; margin-bottom:25px; font-size: 13px;}
+.report-area-fields input {height:22px;}
+.report-abuse-title {position:relative; float:left; width:500px; font-size:15px; font-weight:bold; margin-left:35px; margin-top:10px;}
 
 
 

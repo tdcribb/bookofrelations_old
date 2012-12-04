@@ -30,6 +30,12 @@ function wpuf_auth_redirect_login() {
     }
 }
 
+function my_after_post_redirect() {
+ $URI = '/member-options/dashboard/';
+ return $URI;
+}
+add_filter('wpuf_after_post_redirect', 'my_after_post_redirect');
+
 /**
  * Format the post status for user dashboard
  *

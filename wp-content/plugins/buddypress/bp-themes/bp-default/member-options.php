@@ -23,7 +23,7 @@ Template Name: Member Options
 				</div>
 				<div class="payment-options">
 					<span>Publishing Membership: Monthly</span></br>
-					A monthly fee of $9.95 will gain you access to add your family history, </br>
+					A monthly fee of $9.99 will gain you access to add your family history, </br>
 					digitized family books, family trees, and stories with unlimited submissions.</br>
 					<span>PayPal payment option coming soon</span>
 					</br>

@@ -11,13 +11,14 @@ Template Name: Add History
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'content', 'page' ); ?>
 
-					<div class="form-descr-container">
+
+					<div id="add-post-form" class="form-descr-container">
 						<div class="form-descr">
 							Write your own chapter in the Book of Relations...
 						</div>
-						<?php echo do_shortcode('[user-submitted-posts]'); ?>
+						
+						<?php echo do_shortcode('[wpuf_addpost redirect_after="/membership-options/dashboard/"]'); ?>
 					</div>
 					
 					<div class="post-form-divider"></div>

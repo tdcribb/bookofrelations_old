@@ -271,7 +271,7 @@ class RP_Persona_Factory {
      * @return RP_Persona
      */
     protected function privatize( $persona ) {
-        $persona->full_name = 'Private';
+        $persona->full_name = 'PRIVATE - LOGIN TO VIEW FULL DETAILS';
         $persona->birth_date = '';
         $persona->birth_place = '';
         $persona->death_date = '';
