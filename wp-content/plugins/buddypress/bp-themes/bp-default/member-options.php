@@ -18,21 +18,38 @@ Template Name: Member Options
 					We aren't just talking about blood relations, or relations by marriage, but relationships founded on geography, neighborhoods, 
 					businesses, travels and travails shared by people of a community.
 						</br></br>	
-					As a member, you are able to access all of the data in our archives that directly and indirectly relate to you who are. With 
+					As a member, you are able to access all of the data in our archives that directly and indirectly relate to who you are. With 
 					a better understanding of our past, we can have a tighter grasp on who we may become in the future.
 				</div>
 				<div class="payment-options">
-					<span>Publishing Membership: Monthly</span></br>
-					A monthly fee of $9.99 will gain you access to add your family history, </br>
-					digitized family books, family trees, and stories with unlimited submissions.</br>
-					<span>PayPal payment option coming soon</span>
+					<span>Publishing Membership: Archivist</span></br>
+					A monthly fee of $9.95 will gain you access to add your family history, </br>
+					digitized family books, family trees, and stories. This membership level </br>
+					allows you to publish up to 4 articles a month with a maximum 2,500 words and </br>
+					include 4 documents/images and 1 video per article. </br>
+					
+					<?php echo do_shortcode('[s2Member-PayPal-Button level="1" ccaps="" desc="Archivist - Publishing Member" ps="paypal" lc="" cc="USD" dg="0" ns="1" 
+					custom="bookofrelations.com" ta="0" tp="0" tt="D" ra="9.95" rp="1" rt="M" rr="1" rrt="" rra="1" image="default" output="button" /]') ?>
 					</br>
 				</div>
 				<div class="payment-options">
-					<span>Publishing Membership: Yearly</span></br>
-					A yearly fee of $99.95 will gain you access to add your family history, </br>
-					digitized family books, family trees, and stories with unlimited submissions.</br>
-					<span>PayPal payment option coming soon</span>
+					<span>Publishing Membership: Curator</span></br>
+					A monthly fee of $19.95 will gain you access to add your family history, </br>
+					digitized family books, family trees, and stories. This membership level </br>
+					allows you to publish up to 10 articles a month with a maximum 10,000 words and </br>
+					include 10 documents/images and 3 videos per article. </br>
+					
+					<?php echo do_shortcode('[s2Member-PayPal-Button level="2" ccaps="" desc="Curator - Publishing Member" ps="paypal" lc="" cc="USD" dg="0" ns="1" 
+					custom="bookofrelations.com" ta="0" tp="0" tt="D" ra="19.95" rp="1" rt="M" rr="1" rrt="" rra="1" image="default" output="button" /]') ?> 
+					</br>
+				</div>
+				<div class="payment-options">
+					<span>Publishing Membership: Master Historian</span></br>
+					A monthly fee of $39.95 will gain you access to add your family history, </br>
+					digitized family books, family trees, and stories with unlimited submissions. </br>
+					
+					<?php echo do_shortcode('[s2Member-PayPal-Button level="3" ccaps="" desc="Master Historian - Publishing Member" ps="paypal" lc="" cc="USD" dg="0" ns="1" 
+					custom="bookofrelations.com" ta="0" tp="0" tt="D" ra="39.95" rp="1" rt="M" rr="1" rrt="" rra="1" image="default" output="button" /]') ?> 
 					</br>
 				</div>
 				<div class="payment-options">

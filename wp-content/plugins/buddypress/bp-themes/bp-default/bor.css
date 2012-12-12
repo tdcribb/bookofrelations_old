@@ -67,6 +67,7 @@ div#login h1 {margin-bottom:20px;}
     box-shadow:     0px 2px 5px 0px #555;}
 
 
+
 /* *****REGISTER***** */
 #register-page #basic-details-section, #register-page #profile-details-section, #register-page .register-section {position:relative; float:left !important; min-width:100%; text-align:left;}
 #signup_form.standard-form div.submit {float:left !important; position:relative !important;}
@@ -91,10 +92,19 @@ div#login h1 {margin-bottom:20px;}
 .slogan {position:absolute; left: 300px; top:30px; color:#fff; font-size:18px;}
 #header-login-register {position:relative; float:left; width:100%; margin-top:-17px; padding-left:10px; margin-bottom:5px;color:#bbb;}
 #header-login-register a {color:#bbb; position:relative; float:left;}
-#header-login-register a:hover {color:#efefef;}
 #nav .menu-item {position:relative; float:left;}
 .search-text {position:relative; float:right; top:-5px; color:#F0DA0D; font-size:14px; text-transform: uppercase; margin-right:20px;}
 #tag-line {position:absolute; left:410px; top:45px; width:300px;}
+.flexible-frontend-login {margin-left:20px; position:relative; float: left;}
+#login-popup {position:relative; float:left; margin-top:10px;}
+#login-popup label {width:100%; color:#666;}
+#login-popup input {width: 150px; height:20px;}
+.ffl-close-popup-link {cursor:pointer;}
+#ffl-submit {margin-top:10px;}
+#header-login-register a.ffl-close-popup-link:hover, #ffl-lostpassword:hover {color:#800;}
+
+
+
 
 
 /* *****HOMEPAGE***** */
@@ -149,10 +159,11 @@ div#login h1 {margin-bottom:20px;}
 #cat {font-size:12px; width:180px;}
 p#login-text {margin-top:20px;}
 .sidebar-login-title {font-size:18px; font-weight:bold;}
+#recent-posts-2 li {margin-bottom:5px;}
 
 
 /* *****ADD HISTORY FORM***** */
-.form-descr {position:relative; float:left; font-size:14px; text-align:center; padding-left:100px; padding-right:100px; padding-bottom:20px; padding-top:50px;
+.form-descr {position:relative; float:left; font-size:16px; text-align:center; padding-left:100px; padding-right:100px; padding-bottom:20px; padding-top:50px;
     font-weight:bold;}
  /* ADD POST FROM FRONTEND FORM */
 .wpuf-post-form {position:relative; float:left; padding-bottom:20px; border-bottom:2px solid #999;}
@@ -182,9 +193,11 @@ button, a.button, input[type="submit"], input[type="button"], input[type="reset"
 
 /* *****POSTS***** */
 .post .postmetadata {display:none;}
-.post .author-box, .post .post-content .date, .post .post-content .entry {position:relative; float:left;}
+.post .author-box, .post .post-content .date, .post .post-content .entry {position:relative; float:left; margin-top:5px;}
 .post .post-content {margin-left:0px;}
 .post .post-content .post-title {margin-left:125px;}
+.post-content .fb_edge_widget_with_comment {position:absolute; right:0px; top:80px;}
+.entry {width:100%;}
 
 
 /* *****USER SUBMITTED POSTS FORM***** */
@@ -220,7 +233,7 @@ div#user-submitted-posts fieldset input#user-submitted-post {width:120px;}
 #blog-search .product .wpuf-attachments {display:block;}
 
 #blog-page .product img.alignleft {position:relative; top:0;}
-.mp_cart_widget_content .mp_cart_col_thumb img.alignleft {position:relative; top:0;}
+.mp_cart_widget_content .mp_cart_col_thumb img.alignleft, .mp_cart_contents img.alignleft {position:relative; top:0;}
 
 
 div.post table, div.page table, div.post table td, div.page table td, div.post table th, div.page table th {border:1px solid #999;}
@@ -264,6 +277,7 @@ div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup,
 #members-list span.activity {display:none;}
 .user-sidebar-level {margin-top:10px; font-weight:bold; position:relative; float:left;}
 .user-sidebar-mssgs {text-align:center; position:relative; float:left; margin-bottom:10px; margin-top:5px;}
+.activity-header p img {width:30px; height:30px; margin-right:5px;}
 
 
 /* *****PROFILE***** */
@@ -280,6 +294,27 @@ div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup,
 .report-abuse-title {position:relative; float:left; width:500px; font-size:15px; font-weight:bold; margin-left:35px; margin-top:10px;}
 
 
+/* *****MESSAGES***** */
+li span.unread-count, tr.unread span.unread-count {background:#800;}
+table#message-threads tr.unread td {background:#fff;}
+a {color:#999;}
+a:hover {color:#000;}
+.activity-content a {color:#800;}
+.activity-content a:hover {color:#000; text-decoration:underline;}
+div#item-header div#item-meta {color:#000;}
+div.item-list-tabs ul li a span, div.item-list-tabs ul li.selected a span, div.item-list-tabs ul li.current a span {background:#800;}
+#object-nav li:hover, .item-list-tabs ul li:hover {background:#D8D8D8;}
+
+
+
+/* *****E-BOOKS***** */
+.ebook-page-title {margin-left:19px; color:#555555; font-size:24px; font-weight:bold; position:relative; margin-top:30px; margin-bottom:20px; }
+/*.ebook-container {width:100%; min-width:400px; padding-left:10%; padding-right:10%; height:100px; border:1px solid #888; position:relative; float:left; margin-right:250px;}*/
+.ebook-title {width:80%; padding-left:10%; position:relative; height:40px;}
+.ebook-img {width:60px; padding-left:10px; position:relative; height:80px; padding-top:10px;}
+.ebook-img img {height:80px; width:60px;}
+.ebook-description {margin-left:20px; position:relative; height:80px; padding-top:10px; border-right:1px solid #888;}
+.ebook-link {position:absolute; bottom:20px; right:50px; width:100px; height:22px; color:#fff; background:#888;}
 
 
 
