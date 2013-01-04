@@ -114,6 +114,7 @@ div#login h1 {margin-bottom:20px;}
   -moz-box-shadow:  0px 2px 5px 0px #555;
   -webkit-box-shadow: 0px 2px 5px 0px #555;
   box-shadow:     0px 2px 5px 0px #555;}
+#hp-vid {position:relative; margin:auto; margin-bottom:10px;}
 
 
 /* *****FOOTER***** */
@@ -150,6 +151,39 @@ div#login h1 {margin-bottom:20px;}
 .payment-options span {font-size:14px; font-weight:bold; text-transform: uppercase;}
 .member-options-register {color:#888; font-size:16px; text-decoration:none;}
 .member-options-register:hover {color:#000;}
+
+#member-optns-info {position:relative; margin:auto; padding:10px; text-align:center; width:690px; height:570px; padding-bottom:50px;}
+#member-optns-title {position:relative; float:left; width:100%; text-align:center; font-size:35px; 
+  font-family:'Bookman Old Style'; color:#800; margin-top:50px; margin-bottom:50px;}
+.optn-container {position:relative; float:left; width:218px; height:365px; margin-right:10px;
+  background:url('/wp-content/images/memberoptions/optns-bg.png');}
+.optn-header {background:url('/wp-content/images/memberoptions/optns-header-bg.png'); position:relative; float:left; 
+  width:215px; height:56px;}
+.optn-title {position:relative; float:left; width:100%; text-align:center; font-size:29px; 
+  font-family:'Bookman Old Style'; color:#fff; margin-top:8px;}
+.optn-subtitle {position:relative; float:left; width:100%; text-align:center; font-size:16px; 
+  font-family:'Bookman Old Style'; color:#fff; margin-top:3px;}
+.optn-details {position:relative; float:left; width:200px; margin-left:10px; color:#800; font-family:Andalus; font-size:13px;}
+.optn-details ul, .optn-details li {list-style:disc inside;}
+.optn-details li {margin-top:5px;}
+.click-text {position:relative; float:left; margin-top:-17px; width:100%; text-align:center; font-size:13px; 
+  font-family:'Bookman Old Style'; font-style:italic; color:#800;}
+.optn-price {background:url('/wp-content/images/memberoptions/optn-price-bg.png'); position:absolute; bottom:7px; left:4px;
+  width:206px; height:60px; color:#000;}
+/*.optn-price:hover {background:url('/wp-content/images/memberoptions/optn-price-red-bg.png'); color:#fff;}*/
+.optn-price-text {position:relative; float:left; width:100%; text-align:center; font-size:18px;
+  font-family:'Bookman Old Style'; margin-top:-2px;}
+#optn-free {position:relative; float:left; margin-top:10px; width:672px; height:95px; background:#fafad2;}
+.optn-free-button {position:relative; float:left; margin-top:14px; margin-left:10px; width:150px; height:68px;
+  background:url('/wp-content/images/memberoptions/optns-free-bg.png'); cursor:pointer;}
+.optn-free-button-text {font-size:16px; font-family:'Bookman Old Style'; color:#fff; position:relative; float:left; text-align:center;
+  margin-top:10px; width:100%;}
+.optn-free-text {font-size:29px; font-family:'Bookman Old Style'; color:#fff; position:relative; float:left; text-align:center;
+  margin-top:3px; width:100%;}
+.optn-free-detail {position:relative; float:left; width:410px; margin-left:30px; margin-top:18px; color:#000; font-size:13px;
+  font-family:'Bookman Old Style';}
+.starburst {height: 90px; left: -27px; position: absolute; top: -45px; width: 90px; z-index: 50;}
+
 
 
 /* *****SIDEBAR***** */
