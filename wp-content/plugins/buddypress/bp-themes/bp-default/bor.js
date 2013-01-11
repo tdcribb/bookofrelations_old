@@ -46,6 +46,13 @@ $(document).ready(function() {
 		$('#blog-search .product .continue-reading-post').css('bottom', 23+'px');
 	});
 
+	$('#signup_form.hp-register-form #profile-details-section div').each(function() {
+		var name = $(this).attr('rel');
+		if (name != 'Name') {
+			$(this).css({'display':'none'});
+		}
+	});
+
 	
 });
 

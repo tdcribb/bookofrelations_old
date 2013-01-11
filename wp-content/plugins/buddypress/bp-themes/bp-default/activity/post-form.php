@@ -10,7 +10,8 @@
 ?>
 
 <form action="<?php bp_activity_post_form_action(); ?>" method="post" id="whats-new-form" name="whats-new-form" role="complementary">
-
+	<span class="submit-message">Please use <a href="/membership-options/add-your-history/">Add Your History</a> to write your own chapter in the Book of Relations</span>
+<!-- 
 	<?php do_action( 'bp_before_activity_post_form' ); ?>
 
 	<div id="whats-new-avatar">
@@ -65,10 +66,10 @@
 
 			<?php do_action( 'bp_activity_post_form_options' ); ?>
 
-		</div><!-- #whats-new-options -->
-	</div><!-- #whats-new-content -->
+		</div>
+	</div>-->
 
-	<?php wp_nonce_field( 'post_update', '_wpnonce_post_update' ); ?>
-	<?php do_action( 'bp_after_activity_post_form' ); ?>
+<!-- 	<//?php wp_nonce_field( 'post_update', '_wpnonce_post_update' ); ?>
+	<//?php do_action( 'bp_after_activity_post_form' ); ?> -->
 
 </form><!-- #whats-new-form -->

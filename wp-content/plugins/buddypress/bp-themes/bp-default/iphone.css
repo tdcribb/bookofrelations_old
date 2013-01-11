@@ -1,11 +1,18 @@
+@media screen and (max-width: 1158px) {
+	
+}
+
 @media screen and (max-width: 900px) {
 	#tag-line {top:90px;}
 }
 
 @media screen and (max-width: 750px) {
+	.home-page #container {min-width:350px;}
 	#tag-line {display:none;}
 	.post-form-divider {width:350px; height:1px; border-top:1px solid #333; border-bottom:1px solid #999; margin-left:10px;}
 	.form-descr-container {margin-left:20px;}
+	#hp-book {display:none;}
+	.hp-right {margin-left:-50px;}
 }
 
 

@@ -27,6 +27,8 @@
  * @since 1.2
  */
 
+
+
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) exit;
 
@@ -789,3 +791,4 @@ function bp_dtheme_remove_nojs_body_class() {
 add_action( 'bp_before_header', 'bp_dtheme_remove_nojs_body_class' );
 
 ?>
+

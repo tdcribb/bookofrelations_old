@@ -1,5 +1,12 @@
-#wpadminbar, #wpadminbar .ab-top-secondary {background:#000;}
+/*body {
+  background: -moz-linear-gradient(bottom center , #ffe0ac 0%, #800000 100%) repeat scroll 0 0 transparent !important;
+  background: linear-gradient(bottom center , #fff 0%, #111111 15%, #800000 100%) repeat scroll 0 0 transparent !important;
+  background: -o-linear-gradient(bottom center , #fff 0%, #111111 15%, #800000 100%) repeat scroll 0 0 transparent !important;
+  background: -webkit-linear-gradient(bottom center , #fff 0%, #111111 15%, #800000 100%) repeat scroll 0 0 transparent !important;
+  background: -ms-linear-gradient(bottom center , #fff 0%, #111111 15%, #800000 100%) repeat scroll 0 0 transparent !important;}*/
 
+#wpadminbar, #wpadminbar .ab-top-secondary {background:#000;}
+#wood-bg {position:fixed; top:0px; left:0px; z-index: -1;}
 #header {background: -moz-linear-gradient(center left , #000000 0%, #111111 15%, #800000 100%) repeat scroll 0 0 transparent !important; 
   margin-bottom:0px; padding-top:30px; border:#000 1px solid;
   -moz-box-shadow:  0px 2px 5px 0px #555;
@@ -18,7 +25,10 @@
 .header-login-left {position:relative; float:left; margin-left:10px;}
 #header-login-register .logout {margin-left:10px;}
 div#sidebar {background:#fff;}
-div#container {background:url("/wp-content/images/background.png") repeat;}
+/*div#container {background:url("/wp-content/images/background.png") repeat;}*/
+div#container {background:none;}
+#cont-bg {position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:-1; opacity:0.9;}
+/*div#container {background:url("/wp-content/images/content/wood.jpg") repeat;}*/
 div#subnav.item-list-tabs {background: #efefef;}
 ul.item-list li {border-bottom:1px solid #999; border-top:1px solid #efefef; }
 ul.item-list.activity-list li {padding-bottom:10px;}
@@ -69,17 +79,21 @@ div#login h1 {margin-bottom:20px;}
 
 
 /* *****REGISTER***** */
-#register-page #basic-details-section, #register-page #profile-details-section, #register-page .register-section {position:relative; float:left !important; min-width:100%; text-align:left;}
-#signup_form.standard-form div.submit {float:left !important; position:relative !important;}
+#register-page #basic-details-section, #register-page #profile-details-section, #register-page .register-section {position:relative; float:left !important; 
+  min-width:100%; text-align:left; text-align:center;}
+#signup_form.standard-form div.submit {float:left !important; position:relative !important; margin-left:43%;}
 #register-page form input {max-width:300px;}
 .registration div#content .padder {margin-right:0px;}
 #signup_form p {font-size:14px;}
 #signup_form.standard-form div div.error {background:#800000; border:1px solid #000; color:#fff; font-size:11px; max-width:500px;}
 #cover-submit {position:absolute; top:15px; left:0px; width:120px; height:28px; background:#fff; opacity:0.7; z-index:100;}
-#agree-terms {position:relative; float:left; margin-top:10px;}
+#agree-terms {position:relative; float:left; margin-top:10px; width:100%;}
 .reg-accept-terms {text-decoration:underline; color:#666; cursor:pointer;}
 
 .small-terms-text {font-size:10px; color:#555;}
+
+#register-page, .register-section {text-align:center;}
+.captchaSizeDivSmall {position:relative; margin:auto;}
 
 
 /* *****HEADER***** */
@@ -108,13 +122,53 @@ div#login h1 {margin-bottom:20px;}
 
 
 /* *****HOMEPAGE***** */
-.homepage-info {position:relative; float:left; padding:50px; font-size:15px; text-align: center; margin-bottom:25px; margin-right:250px;}
-.homepage-info span {font-size:18px; font-weight: bold;}
+.home-page #container {min-width:1100px;}
+.homepage-info {position:relative; float:left; padding:25px; font-size:15px; text-align: center; margin-bottom:25px;}
+.hp-left {position:relative; float:left; width:600px;}
+.hp-right {position:relative; float:left; width:400px; margin-left:50px; }
 .testimonial {width:320px; height:135px; font-size:12px; padding:10px; position:relative; margin:auto;
   -moz-box-shadow:  0px 2px 5px 0px #555;
   -webkit-box-shadow: 0px 2px 5px 0px #555;
   box-shadow:     0px 2px 5px 0px #555;}
-#hp-vid {position:relative; margin:auto; margin-bottom:10px;}
+#hp-book {position:relative; float:left; width:670px;}
+#hp-vid {position:relative; float:left; width:350px; margin-left:50px; margin-top:5px;}
+.hp-comments {position:relative; float:left; width:400px; margin-left:25px; margin-top:10px;
+  font-family:Courier; color:#800; text-align:center; font-size:18px;}
+.hp-comments span {font-size:24px; font-weight:bold}
+#hp-register-free {position:relative; float:left; margin-top:5px; margin-left:145px;}
+.hp-reg-publish {position:relative; float:left; width:360px; margin-left:45px;
+  font-family:Courier; color:#800; text-align:center; font-size:14px;}
+#member-reg-btn {position:relative; float:left; margin-top:5px; margin-left:145px;}
+#hp-login-container {width:390px; position:relative; float:left; padding:5px; margin-top:-25px; margin-left:-25px;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
+#hp-login-container .hp-login {width:180px; position:relative; float:left;}
+#hp-login-container .hp-login-pass {margin-left:25px;}
+#hp-login-container .hp-login label {font-size:12px; margin:0px;}
+#hp-login-container .hp-forget {position:relative; float:left; font-size:10px; width:130px;}
+#hp-login-container .hp-login-btn {position:relative; float:left;}
+#hp-login-container .user-sidebar-mssgs {margin-top:10px; margin-left:40px;}
+
+#signup_form.hp-register-form {position:relative; float:left; width:420px; height:275px; margin-left:35px;}
+#signup_form.hp-register-form #basic-details-section {position:relative; float:left; width:420px;}
+#signup_form.hp-register-form #basic-details-section .reg-form-input {position:relative; float:left; width:190px; font-size:12px; font-weight:normal;}
+#signup_form.hp-register-form #basic-details-section .reg-form-input label {margin-top:5px; margin-bottom:2px;}
+#signup_form.hp-register-form #basic-details-section .reg-form-input input {width:150px; height:10px;}
+#signup_form.hp-register-form #profile-details-section {position:relative; float:left; width:190px; font-size:12px; font-weight:normal;}
+#signup_form.hp-register-form #profile-details-section label {margin-top:5px; margin-bottom:2px;}
+#signup_form.hp-register-form #profile-details-section input {width:150px; height:10px;}
+#signup_form.hp-register-form #profile-details-section p {display:none;}
+#signup_form.hp-register-form .register-section {position:relative; float:left; width:190px; font-size:12px; font-weight:normal; margin-top:0px !important;}
+#signup_form.hp-register-form .register-section .captchaSizeDivSmall {position:relative; float:left; margin-top:8px; width:160px; text-align:center; margin-left:15px; padding-top:0px;}
+#signup_form.hp-register-form .register-section label {margin-bottom:0px;}
+#signup_form.hp-register-form #agree-terms {position:relative; float:left; width:190px; font-size:11px; font-weight:normal}
+#signup_form.hp-register-form .submit {position:relative; float:left; margin-left:50% !important; margin-top:-75px;}
+#signup_form.hp-register-form .submit #signup_submit {background:#800; border:none; color:#fff; width:150px; height:40px; font-size:18px;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
+#signup_form.hp-register-form .submit #cover-submit {width:150px; height:40px; opacity:0.3;}
 
 
 /* *****FOOTER***** */
@@ -312,7 +366,8 @@ div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup,
 .user-sidebar-level {margin-top:10px; font-weight:bold; position:relative; float:left;}
 .user-sidebar-mssgs {text-align:center; position:relative; float:left; margin-bottom:10px; margin-top:5px;}
 .activity-header p img {width:30px; height:30px; margin-right:5px;}
-
+.submit-message {font-size:14px;}
+.submit-message a {color:#800;}
 
 /* *****PROFILE***** */
 

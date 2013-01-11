@@ -9,7 +9,9 @@
 		
 		<?php do_action( 'bp_head' ); ?>
 		<?php wp_head(); ?>
-
+		<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/js/jquery.easing.1.3.js"></script>
+		<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/js/jquery.columnizer.min.js"></script>
+		<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/js/jquery.fullscreenr.js"></script>
 		<script>
   			var $ = jQuery.noConflict();    
 		</script>
@@ -31,9 +33,18 @@
 		  })();
 		
 		</script>
+
+		<script>
+			// var FullscreenrOptions = { width: 1012, height: 790, bgID: '#wood-bg' }; //black leather
+			// var FullscreenrOptions = { width: 2000, height: 1333, bgID: '#wood-bg' }; //brown leather
+			var FullscreenrOptions = { width: 1280, height: 1080, bgID: '#wood-bg' }; //wood grain
+			jQuery.fn.fullscreenr(FullscreenrOptions); 
+		</script>
 	</head>
 
 	<body <?php body_class(); ?> id="bp-default">
+
+		<!-- <img id="wood-bg" src="/wp-content/images/content/wood.jpg" /> -->
 
 		<?php do_action( 'bp_before_header' ); ?>
 
@@ -77,3 +88,4 @@
 		<?php do_action( 'bp_before_container' ); ?>
 
 		<div id="container">
+			<img id="cont-bg" src="/wp-content/images/background.png" />
