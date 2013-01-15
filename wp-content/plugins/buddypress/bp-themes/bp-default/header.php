@@ -88,4 +88,4 @@
 		<?php do_action( 'bp_before_container' ); ?>
 
 		<div id="container">
-			<img id="cont-bg" src="/wp-content/images/background.png" />
+			<!-- <img id="cont-bg" src="/wp-content/images/background.png" /> -->

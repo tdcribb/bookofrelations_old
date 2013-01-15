@@ -24,12 +24,14 @@
 .iphone-header-text-only {display:none; position:relative; float:left; margin-left:5px;}
 .header-login-left {position:relative; float:left; margin-left:10px;}
 #header-login-register .logout {margin-left:10px;}
-div#sidebar {background:#fff;}
-/*div#container {background:url("/wp-content/images/background.png") repeat;}*/
-div#container {background:none;}
+div#sidebar {background:none; border-left:1px solid #800;}
+div#container {background:url("/wp-content/images/background.png") repeat;}
+/*div#container {background:none;}*/
 #cont-bg {position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:-1; opacity:0.9;}
 /*div#container {background:url("/wp-content/images/content/wood.jpg") repeat;}*/
-div#subnav.item-list-tabs {background: #efefef;}
+div#subnav.item-list-tabs, div.item-list-tabs, div.pagination {background:none;}
+div.pagination .pag-count {color:#000;}
+
 ul.item-list li {border-bottom:1px solid #999; border-top:1px solid #efefef; }
 ul.item-list.activity-list li {padding-bottom:10px;}
 div.post-content {border-bottom:1px solid #999; border-top:1px solid #999; padding-top:10px; padding-bottom:10px;}
@@ -84,8 +86,9 @@ div#login h1 {margin-bottom:20px;}
 #signup_form.standard-form div.submit {float:left !important; position:relative !important; margin-left:43%;}
 #register-page form input {max-width:300px;}
 .registration div#content .padder {margin-right:0px;}
-#signup_form p {font-size:14px;}
-#signup_form.standard-form div div.error {background:#800000; border:1px solid #000; color:#fff; font-size:11px; max-width:500px;}
+#signup_form p {font-size:16px;}
+#signup_form.standard-form div div.error {background:#800000; border:1px solid #000; color:#fff; font-size:12px; max-width:500px;
+  font-weight:normal; position:relative; margin:auto; margin-bottom:5px;}
 #cover-submit {position:absolute; top:15px; left:0px; width:120px; height:28px; background:#fff; opacity:0.7; z-index:100;}
 #agree-terms {position:relative; float:left; margin-top:10px; width:100%;}
 .reg-accept-terms {text-decoration:underline; color:#666; cursor:pointer;}
@@ -123,6 +126,7 @@ div#login h1 {margin-bottom:20px;}
 
 /* *****HOMEPAGE***** */
 .home-page #container {min-width:1100px;}
+.hp-descr {position:absolute; top:165px; left:100px; z-index:-1; width:400px;}
 .homepage-info {position:relative; float:left; padding:25px; font-size:15px; text-align: center; margin-bottom:25px;}
 .hp-left {position:relative; float:left; width:600px;}
 .hp-right {position:relative; float:left; width:400px; margin-left:50px; }
@@ -148,7 +152,12 @@ div#login h1 {margin-bottom:20px;}
 #hp-login-container .hp-login label {font-size:12px; margin:0px;}
 #hp-login-container .hp-forget {position:relative; float:left; font-size:10px; width:130px;}
 #hp-login-container .hp-login-btn {position:relative; float:left;}
-#hp-login-container .user-sidebar-mssgs {margin-top:10px; margin-left:40px;}
+#hp-login-container .user-sidebar-mssgs {margin-top:0px; margin-bottom:0px;}
+#hp-login-container .hp-avatar {position:relative; float:left; width:190px; height:60px;}
+#hp-login-container .hp-name, #hp-login-container .hp-login-btn {position:relative; float:left; width:190px; height:30px; text-align:left;}
+#hp-login-container .hp-name {font-size:16px; font-weight:bold;}
+#hp-login-container .hp-login-btn {margin-top:5px;}
+#hp-login-container .user-sidebar-level {width:190px; text-align:left; margin-top:0px; margin-bottom:0px;}
 
 #signup_form.hp-register-form {position:relative; float:left; width:420px; height:275px; margin-left:35px;}
 #signup_form.hp-register-form #basic-details-section {position:relative; float:left; width:420px;}
@@ -234,7 +243,7 @@ div#login h1 {margin-bottom:20px;}
   margin-top:10px; width:100%;}
 .optn-free-text {font-size:29px; font-family:'Bookman Old Style'; color:#fff; position:relative; float:left; text-align:center;
   margin-top:3px; width:100%;}
-.optn-free-detail {position:relative; float:left; width:410px; margin-left:30px; margin-top:18px; color:#000; font-size:13px;
+.optn-free-detail {position:relative; float:left; width:410px; margin-left:30px; margin-top:10px; color:#000; font-size:13px;
   font-family:'Bookman Old Style';}
 .starburst {height: 90px; left: -27px; position: absolute; top: -45px; width: 90px; z-index: 50;}
 
@@ -368,6 +377,8 @@ div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup,
 .activity-header p img {width:30px; height:30px; margin-right:5px;}
 .submit-message {font-size:14px;}
 .submit-message a {color:#800;}
+.acomment-reply {display:none;}
+div.activity-comments > ul {background:none;}
 
 /* *****PROFILE***** */
 

@@ -7,12 +7,18 @@
 }
 
 @media screen and (max-width: 750px) {
-	.home-page #container {min-width:350px;}
+	.home-page #container {min-width:0px;}
 	#tag-line {display:none;}
 	.post-form-divider {width:350px; height:1px; border-top:1px solid #333; border-bottom:1px solid #999; margin-left:10px;}
 	.form-descr-container {margin-left:20px;}
+	.homepage-info {padding:0px; width:320px;}
 	#hp-book {display:none;}
-	.hp-right {margin-left:-50px;}
+	.hp-right, .hp-left {width:310px; margin-left:-10px;}
+	#hp-login-container {width:310px; margin-left:0px; margin-top:0px;}
+	#hp-login-container .hp-login {width:145px;}
+	#hp-login-container .hp-login-pass {margin-left:15px;}
+	.hp-descr {width:0px;}
+
 }
 
 
@@ -20,13 +26,13 @@
 	#header-logo {width:400px; height:124px;}
 	.homepage-info {margin-right:0px; font-size:11px;}
 	#nav li a {font-size:10px;}
-	#nav .menu-item {min-width:130px;}
+	#nav .menu-item {width:130px;}
 	.member-opts-info {font-size:11px;}
 	div#content .padder {margin-right:0px;}
 	.form-descr {font-size:11px; padding-left:10px; padding-right:10px; padding-top:25px; padding-bottom:15px;}
 	.add-fields, #usp #usp_list li label{font-size:11px;}
-	.overlay {width:200px; height:350px; position:fixed; top:10px; left:10px;}
-	.inner-container {width:150px; height:200px; padding:15px;}
+	.overlay {width:420px; height:350px; position:fixed; top:10px; left:10px;}
+	.inner-container {width:320px; height:250px; padding:10px;}
 	#book-sales-container {margin-right:0px;}
 	#header {padding-top:50px;}
 	.header-login-left {display:none;}
@@ -34,6 +40,23 @@
 	#container div#content {float:left;}
 	#container div#sidebar {float:left;}
 	.footer-links {width:300px; margin-left:10px;}
+	
+	.hp-comments {width:310px; margin-left:0px;}
+	#hp-vid {width:320px; margin-left:0px;}
+	#hp-vid iframe {width:310px;}
+	#signup_form.hp-register-form #basic-details-section {width:310px;}
+	#signup_form.hp-register-form #basic-details-section label {font-size:10px;}
+	#signup_form.hp-register-form #basic-details-section .reg-form-input input {width:120px;}
+	#signup_form.hp-register-form #basic-details-section .reg-form-input {width:155px;}
+	#signup_form.hp-register-form #profile-details-section {width:155px;}
+	#signup_form.hp-register-form #profile-details-section label {font-size:10px;}
+	#signup_form.hp-register-form #profile-details-section input {width:120px;}
+	#signup_form.hp-register-form #agree-terms {width:150px;}
+	#signup_form.hp-register-form .register-section {width:150px;}
+	#signup_form.hp-register-form .register-section input#captcha_code {width:120px !important;}
+	#signup_form.hp-register-form {width:315px; margin-left:5px;}
+	.hp-reg-publish {width:290px; margin-top:20px; margin-left:15px;}
+	#member-reg-btn {margin-left:80px;}
 }
 
 @media screen and (max-width: 320px) {
@@ -45,13 +68,29 @@
 	div#content .padder {margin-right:0px;}
 	.form-descr {font-size:11px; padding-left:10px; padding-right:10px; padding-top:25px; padding-bottom:15px;}
 	.add-fields, #usp #usp_list li label{font-size:11px;}
-	.overlay {width:400px; height:300px; position:fixed; top:10px; left:10px;}
-	.inner-container {width:300px; height:210px; padding:10px;}
+	.overlay {width:320px; height:350px; position:fixed; top:10px; left:10px;}
+	.inner-container {width:220px; height:250px; padding:10px;}
 	#book-sales-container {margin-right:0px;}
 	#header {padding-top:50px;}
 	.iphone-header-text-only {display:block;}
 	#container div#content {float:left;}
 	#container div#sidebar {float:left;}
 	.testimonial {width:260px;}
-	
+
+	.hp-comments {width:310px; margin-left:0px;}
+	#hp-vid {width:320px; margin-left:0px;}
+	#hp-vid iframe {width:310px;}
+	#signup_form.hp-register-form #basic-details-section {width:310px;}
+	#signup_form.hp-register-form #basic-details-section label {font-size:10px;}
+	#signup_form.hp-register-form #basic-details-section .reg-form-input input {width:120px;}
+	#signup_form.hp-register-form #basic-details-section .reg-form-input {width:155px;}
+	#signup_form.hp-register-form #profile-details-section {width:155px;}
+	#signup_form.hp-register-form #profile-details-section label {font-size:10px;}
+	#signup_form.hp-register-form #profile-details-section input {width:120px;}
+	#signup_form.hp-register-form #agree-terms {width:150px;}
+	#signup_form.hp-register-form .register-section {width:150px;}
+	#signup_form.hp-register-form .register-section input#captcha_code {width:120px !important;}
+	#signup_form.hp-register-form {width:315px; margin-left:5px;}
+	.hp-reg-publish {width:290px; margin-top:20px; margin-left:15px;}
+	#member-reg-btn {margin-left:80px;}
 }

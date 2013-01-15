@@ -17,12 +17,15 @@ Template Name: Homepage
 								<?php do_action( 'bp_before_sidebar_me' ); ?>
 
 								<div id="sidebar-me">
-									<a href="<?php echo bp_loggedin_user_domain(); ?>">
-										<?php bp_loggedin_user_avatar( 'type=thumb&width=40&height=40' ); ?>
-									</a>
-
-									<h4><?php echo bp_core_get_userlink( bp_loggedin_user_id() ); ?></h4>
-									<a class="button logout" href="<?php echo wp_logout_url( wp_guess_url() ); ?>"> <?php _e( 'Log Out', 'buddypress' ); ?></a>
+									<div class="hp-avatar">
+										<a href="<?php echo bp_loggedin_user_domain(); ?>">
+											<?php bp_loggedin_user_avatar( 'type=thumb&width=50&height=50' ); ?>
+										</a>
+									</div>
+									<div class="hp-name"><?php echo bp_core_get_userlink( bp_loggedin_user_id() ); ?></div>
+									<div class="hp-login-btn">
+										<a class="button logout" href="<?php echo wp_logout_url( wp_guess_url() ); ?>"> <?php _e( 'Log Out', 'buddypress' ); ?></a>
+									</div>
 
 									<?php do_action( 'bp_sidebar_me' ); ?></br>
 									<div class="user-sidebar-level"><?php echo S2MEMBER_CURRENT_USER_ACCESS_LABEL; ?></div>
@@ -62,6 +65,21 @@ Template Name: Homepage
 								<?php do_action( 'bp_after_sidebar_login_form' ); ?>
 
 							<?php endif; ?>
+						</div>
+						<div class="hp-descr">
+							Welcome to Book of Relations
+							Don't let your family history be forgotten
+							You fit into a bigger context than you probably think. Our past has created our present. How we are
+							interconnected with our ancestors, al the way down to our parents, is a fascinating area of study. 
+							But have you ever wondered how all of our ancestors may have been rlated to each other?
+	
+							We aren't just talking about blood relations, or relations by marriage, but relationships founded 
+							on geography, neighborhoods, businesses, travels and travails shared by people of a community.
+	
+							As a member, you are able to access all of the data in our archives that directly and indirectly relate
+							to you. With a better understanding of our past, we can have a grasp on who we may become in the future.
+	
+							This is your opportunity to keep the past alive for generations to come.
 						</div>
 						<img id="hp-book" src="/wp-content/images/tilted-book.png" />
 						
@@ -293,9 +311,9 @@ Template Name: Homepage
 								<?php do_action( 'bp_before_registration_confirmed' ); ?>
 				
 								<?php if ( bp_registration_needs_activation() ) : ?>
-									<p><?php _e( 'You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address.', 'buddypress' ); ?></p>
+									<p><?php _e( 'You have successfully created your account!</br> To begin using this site you will need to activate your account via the email we have just sent to your address.', 'buddypress' ); ?></p>
 								<?php else : ?>
-									<p><?php _e( 'You have successfully created your account! Please log in using the username and password you have just created.', 'buddypress' ); ?></p>
+									<p><?php _e( 'You have successfully created your account!</br> Please log in using the username and password you have just created.', 'buddypress' ); ?></p>
 								<?php endif; ?>
 				
 								<?php do_action( 'bp_after_registration_confirmed' ); ?>
