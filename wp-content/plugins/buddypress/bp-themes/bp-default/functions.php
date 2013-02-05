@@ -27,6 +27,43 @@
  * @since 1.2
  */
 
+add_filter('wp_dropdown_users', 'MySwitchUser');
+function MySwitchUser($output)
+{
+
+    //global $post is available here, hence you can check for the post type here
+    $users = get_users('role=s2member_level1');
+    $users2 = get_users('role=s2member_level2');
+    $users3 = get_users('role=s2member_level3');
+    $users4 = get_users('role=s2member_level4');
+
+
+    $output = "<select id=\"post_author_override\" name=\"post_author_override\" class=\"\">";
+
+    //Leave the admin in the list
+    $output .= "<option value=\"1\">Admin</option>";
+    foreach($users as $user)
+    {
+        $sel = ($post->post_author == $user->ID)?"selected='selected'":'';
+        $output .= '<option value="'.$user->ID.'"'.$sel.'>'.$user->user_login.'</option>';
+    }
+    foreach($users2 as $user)
+    {
+        $output .= '<option value="'.$user->ID.'"'.$sel.'>'.$user->user_login.'</option>';
+    }
+    foreach($users3 as $user)
+    {
+        $output .= '<option value="'.$user->ID.'"'.$sel.'>'.$user->user_login.'</option>';
+    }
+    foreach($users4 as $user)
+    {
+        $output .= '<option value="'.$user->ID.'"'.$sel.'>'.$user->user_login.'</option>';
+    }
+    $output .= "</select>";
+
+    return $output;
+}
+
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) exit;
 
@@ -355,7 +392,7 @@ function bp_dtheme_header_style() {
 	}
 ?>
 
-	<style type="text/css">
+	<!-- /*	<style type="text/css">
 		<?php if ( !empty( $header_image ) ) : ?>
 			#header { background-image: url(<?php echo $header_image ?>); }
 		<?php endif; ?>
@@ -365,7 +402,7 @@ function bp_dtheme_header_style() {
 		<?php } else { ?>
 		#header h1 a, #desc { color:#<?php header_textcolor(); ?>; }
 		<?php } ?>
-	</style>
+	</style>*/ -->
 
 <?php
 }

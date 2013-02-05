@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 900px) {
 	#tag-line {top:90px;}
+	.activity-ad {position:relative; float:left; top:0px; right:0px;}
 }
 
 @media screen and (max-width: 750px) {
@@ -57,6 +58,11 @@
 	#signup_form.hp-register-form {width:315px; margin-left:5px;}
 	.hp-reg-publish {width:290px; margin-top:20px; margin-left:15px;}
 	#member-reg-btn {margin-left:80px;}
+	#hp-login-container .hp-login-btn {width:125px;}
+	.activity-ad {width:320px; margin-right:0px;}
+	.search-text {display:none;}
+	#header-search-cont {margin-top:0px;}
+	.alignright, .alignleft {width:160px; height:30px; overflow:hidden; margin-right:0px; margin-left:0px;}
 }
 
 @media screen and (max-width: 320px) {
@@ -93,4 +99,8 @@
 	#signup_form.hp-register-form {width:315px; margin-left:5px;}
 	.hp-reg-publish {width:290px; margin-top:20px; margin-left:15px;}
 	#member-reg-btn {margin-left:80px;}
+	#hp-login-container .hp-login-btn {width:125px;}
+	.search-text {display:none;}
+	#header-search-cont {margin-top:0px;}
+	.alignright, .alignleft {width:160px; height:30px; overflow:hidden; margin-right:0px; margin-left:0px;}
 }

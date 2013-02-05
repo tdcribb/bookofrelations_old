@@ -32,6 +32,20 @@ get_header( 'buddypress' ); ?>
 
 			<?php do_action( 'template_notices' ); ?>
 
+			<div class="activity-ad">
+				<script type="text/javascript"><!--
+					google_ad_client = "ca-pub-5462037983723025";
+					/* Activity Page Ad */
+					google_ad_slot = "6483209436";
+					google_ad_width = 468;
+					google_ad_height = 60;
+					//-->
+				</script>
+				<script type="text/javascript"
+					src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+			</div>
+
 			<div class="item-list-tabs activity-type-tabs" role="navigation">
 				<ul>
 					<?php do_action( 'bp_before_activity_type_tab_all' ); ?>

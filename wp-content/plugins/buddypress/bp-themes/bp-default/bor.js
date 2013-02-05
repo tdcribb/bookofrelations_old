@@ -53,6 +53,18 @@ $(document).ready(function() {
 		}
 	});
 
+	$('.select-site-search').click(function() {
+		$('#google-search').hide();
+		$('#site-search').fadeIn();
+		$('.select-site-search').css({'color':'#fff', 'float':'left'});
+		$('.select-google-search').css({'color':'#999', 'float':'right'});
+	});
+	$('.select-google-search').click(function() {
+		$('#site-search').hide();
+		$('#google-search').fadeIn();
+		$('.select-google-search').css({'color':'#fff', 'float':'left'});
+		$('.select-site-search').css({'color':'#999', 'float':'right'});
+	});
 	
 });
 

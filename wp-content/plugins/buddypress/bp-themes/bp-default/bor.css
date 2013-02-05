@@ -10,8 +10,14 @@
 #header {background: -moz-linear-gradient(center left , #000000 0%, #111111 15%, #800000 100%) repeat scroll 0 0 transparent !important; 
   margin-bottom:0px; padding-top:30px; border:#000 1px solid;
   -moz-box-shadow:  0px 2px 5px 0px #555;
-    -webkit-box-shadow: 0px 2px 5px 0px #555;
-    box-shadow:     0px 2px 5px 0px #555;}
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
+
+#bp-default #header {background: -moz-linear-gradient(center left , #000000 0%, #111111 15%, #800000 100%) repeat scroll 0 0 transparent !important; 
+  margin-bottom:0px; padding-top:30px; border:#000 1px solid;
+  -moz-box-shadow:  0px 2px 5px 0px #555;
+  -webkit-box-shadow: 0px 2px 5px 0px #555;
+  box-shadow:     0px 2px 5px 0px #555;}
 #nav li {margin-left:2px;}
 #nav li a {background:#000; text-align:center; font-weight: bold;}
 #nav li a:hover {background:#efefef; color:#000; font-weight: bold;}
@@ -35,6 +41,7 @@ div.pagination .pag-count {color:#000;}
 ul.item-list li {border-bottom:1px solid #999; border-top:1px solid #efefef; }
 ul.item-list.activity-list li {padding-bottom:10px;}
 div.post-content {border-bottom:1px solid #999; border-top:1px solid #999; padding-top:10px; padding-bottom:10px;}
+#blog-search div.post-content {border-bottom:none;}
 .comments-closed {display:none;}
 .post .post-content .date {width:100%;}
 .alignright {position:absolute; top:-30px; right:0px;}
@@ -67,7 +74,7 @@ div.post {overflow:visible;}
 #blog-search .post {margin-top:20px; border-bottom:3px ridge #999; margin-bottom:10px; padding-bottom:5px; position:relative; float:left; width:100%;}
 .continue-reading-post {position:absolute; bottom:0px; right:10px; color:#800; text-decoration:underline;}
 p.postmetadata .comments {display:none;}
-div.page, div.post, div.attachment {position:relative;}
+div.page, div.post, div.attachment {position:relative; float:left; width:100%;}
 
 
 /* *****LOGIN***** */
@@ -103,14 +110,26 @@ div#login h1 {margin-bottom:20px;}
 #nav {position:relative; float:right; margin-top:13px;}
 #header-logo-cont {position:relative; float:left;}
 #header-logo {position:relative; float:left; margin-top:0px;}
-#header-search-cont {position:relative; float:right; margin-right:10px; text-align:right; margin-top:5px;}
+.search-select {position:relative; float:left; font-size:11px; color:#efefef; width:235px; margin-left:10px;}
+.search-select div {position:relative; margin-left:20px; cursor:pointer;}
+.search-select .select-site-search {color:#999; float:right; }
+.search-select .select-google-search {color:#fff; margin-left:10px; float:left; }
+#header-search-cont {position:relative; float:right; margin-right:10px; text-align:right; margin-top:-15px; width:250px;}
+#site-search {display:none; position:relative; float:right; margin-bottom:26px;}
+#google-search {display:block; position:relative; float:right;}
+#header-search-cont .gsc-control-cse {background:none; padding: 0.6em;}
+#header-search-cont div .gsc-input #gsc-iw-id1 {background:#fff;}
+#header-search-cont table tr td, table tr th {padding:2px;}
+#header-search-cont div .gsc-results-wrapper-overlay {background:#fff;}
+#header-search-cont div .gsc-modal-background-image {background:#efefef;}
 #search-form {position:absolute; top:20px; right:20px; z-index:10;}
 .logo-url {width:400px; height:124px;}
 .slogan {position:absolute; left: 300px; top:30px; color:#fff; font-size:18px;}
 #header-login-register {position:relative; float:left; width:100%; margin-top:-17px; padding-left:10px; margin-bottom:5px;color:#bbb;}
 #header-login-register a {color:#bbb; position:relative; float:left;}
 #nav .menu-item {position:relative; float:left;}
-.search-text {position:relative; float:right; top:-5px; color:#F0DA0D; font-size:14px; text-transform: uppercase; margin-right:20px;}
+.search-text {position:relative; float:right; top:-5px; color:#F0DA0D; font-size:14px; text-transform: uppercase; 
+  width:230px; text-align:left;}
 #tag-line {position:absolute; left:410px; top:45px; width:300px;}
 .flexible-frontend-login {margin-left:20px; position:relative; float: left;}
 #login-popup {position:relative; float:left; margin-top:10px;}
@@ -119,14 +138,14 @@ div#login h1 {margin-bottom:20px;}
 .ffl-close-popup-link {cursor:pointer;}
 #ffl-submit {margin-top:10px;}
 #header-login-register a.ffl-close-popup-link:hover, #ffl-lostpassword:hover {color:#800;}
-
+#header-book-logo {height: 118px; position: absolute; right: 3px; top: 3px; width: 200px; z-index: 1;}
 
 
 
 
 /* *****HOMEPAGE***** */
 .home-page #container {min-width:1100px;}
-.hp-descr {position:absolute; top:165px; left:100px; z-index:-1; width:400px;}
+.hp-descr {position:absolute; top:165px; left:100px; z-index:-1; width:400px; display: none;}
 .homepage-info {position:relative; float:left; padding:25px; font-size:15px; text-align: center; margin-bottom:25px;}
 .hp-left {position:relative; float:left; width:600px;}
 .hp-right {position:relative; float:left; width:400px; margin-left:50px; }
@@ -143,7 +162,7 @@ div#login h1 {margin-bottom:20px;}
 .hp-reg-publish {position:relative; float:left; width:360px; margin-left:45px;
   font-family:Courier; color:#800; text-align:center; font-size:14px;}
 #member-reg-btn {position:relative; float:left; margin-top:5px; margin-left:145px;}
-#hp-login-container {width:390px; position:relative; float:left; padding:5px; margin-top:-25px; margin-left:-25px;
+#hp-login-container {width:390px; position:relative; float:left; padding:5px; margin-top:50px; margin-left:150px;
   -moz-box-shadow:  0px 2px 5px 0px #555;
   -webkit-box-shadow: 0px 2px 5px 0px #555;
   box-shadow:     0px 2px 5px 0px #555;}
@@ -250,14 +269,17 @@ div#login h1 {margin-bottom:20px;}
 
 
 /* *****SIDEBAR***** */
-#header #searchform {width:250px; position:relative; float:right; margin-right:20px; z-index:10px;}
-#searchform #s {margin-bottom:5px; width:170px;}
+#header #searchform {width:250px; position:relative; float:right; z-index:10px;}
+#searchform #s {margin-bottom:5px; width:130px;}
+#searchform #searchsubmit {width:80px; height:24px;}
 #menu-family-trees {margin-bottom:10px; font-size:12px; width:180px;}
 #cat {font-size:12px; width:180px;}
 p#login-text {margin-top:20px;}
 .sidebar-login-title {font-size:18px; font-weight:bold;}
 #recent-posts-2 li {margin-bottom:5px;}
-
+#menu-links {width:200px;}
+#menu-links option {width:180px;}
+#cat option {width:180px;}
 
 /* *****ADD HISTORY FORM***** */
 .form-descr {position:relative; float:left; font-size:16px; text-align:center; padding-left:100px; padding-right:100px; padding-bottom:20px; padding-top:50px;
@@ -293,9 +315,13 @@ button, a.button, input[type="submit"], input[type="button"], input[type="reset"
 .post .author-box, .post .post-content .date, .post .post-content .entry {position:relative; float:left; margin-top:5px;}
 .post .post-content {margin-left:0px;}
 .post .post-content .post-title {margin-left:125px;}
-.post-content .fb_edge_widget_with_comment {position:absolute; right:0px; top:80px;}
+.post-content .fb_edge_widget_with_comment {position:relative; float:right; margin-top:10px;}
 .entry {width:100%;}
-
+#google-plus {position:relative; float:right; margin-top:10px;}
+.post .post-content .entry a img {margin-left:5px; position:relative; margin-top:10px;}
+.post-banner-ad {width:468px; height:60px; position:relative; float:right; margin-top:10px; margin-right:25px;}
+.post .post-content h2.posttitle {position:relative; float:left; width:80%;}
+.archive .post .post-content {border-bottom:none;}
 
 /* *****USER SUBMITTED POSTS FORM***** */
 #content div#user-submitted-posts  {position:relative; margin:auto; width:320px;}
@@ -324,7 +350,7 @@ div#user-submitted-posts fieldset input#user-submitted-post {width:120px;}
 .mp_product_name a {color:#666;}
 .mp_product_price {font-weight:bold;}
 #blog-search .product, #blog-search .page {border-top:none; border-bottom:3px ridge #999999;}
-#blog-search .page {margin-bottom:20px; padding-bottom:20px;}
+#blog-search .page {margin-bottom:20px; padding-bottom:20px; width:100%;}
 #blog-search .product {margin-bottom:20px; padding-bottom:20px;}
 #blog-search .product .postmetadata, #blog-search .page .postmetadata {display:none;}
 #blog-search .product .wpuf-attachments {display:block;}
@@ -379,6 +405,8 @@ div.rp_ancestors table.ancestors td.rp_nameBox, div.rp_family table.familygroup,
 .submit-message a {color:#800;}
 .acomment-reply {display:none;}
 div.activity-comments > ul {background:none;}
+.activity-ad {position:absolute; top:40px; right:250px; width:468px; height:60px;}
+.post-bottom-ad {position:relative; float:left; width:728px; height:90px; margin-top:10px; margin-bottom:10px;}
 
 /* *****PROFILE***** */
 

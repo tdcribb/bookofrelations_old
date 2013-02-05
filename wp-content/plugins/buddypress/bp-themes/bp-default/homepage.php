@@ -11,6 +11,24 @@ Template Name: Homepage
 				<div class="homepage-info">
 
 					<div class="hp-left">
+						
+						<div class="hp-descr">
+							Welcome to Book of Relations
+							Don't let your family history be forgotten
+							You fit into a bigger context than you probably think. Our past has created our present. How we are
+							interconnected with our ancestors, al the way down to our parents, is a fascinating area of study. 
+							But have you ever wondered how all of our ancestors may have been rlated to each other?
+	
+							We aren't just talking about blood relations, or relations by marriage, but relationships founded 
+							on geography, neighborhoods, businesses, travels and travails shared by people of a community.
+	
+							As a member, you are able to access all of the data in our archives that directly and indirectly relate
+							to you. With a better understanding of our past, we can have a grasp on who we may become in the future.
+	
+							This is your opportunity to keep the past alive for generations to come.
+						</div>
+						<img id="hp-book" src="/wp-content/images/tilted-book.png" />
+
 						<div id="hp-login-container">
 							<?php if ( is_user_logged_in() ) : ?>
 
@@ -66,22 +84,6 @@ Template Name: Homepage
 
 							<?php endif; ?>
 						</div>
-						<div class="hp-descr">
-							Welcome to Book of Relations
-							Don't let your family history be forgotten
-							You fit into a bigger context than you probably think. Our past has created our present. How we are
-							interconnected with our ancestors, al the way down to our parents, is a fascinating area of study. 
-							But have you ever wondered how all of our ancestors may have been rlated to each other?
-	
-							We aren't just talking about blood relations, or relations by marriage, but relationships founded 
-							on geography, neighborhoods, businesses, travels and travails shared by people of a community.
-	
-							As a member, you are able to access all of the data in our archives that directly and indirectly relate
-							to you. With a better understanding of our past, we can have a grasp on who we may become in the future.
-	
-							This is your opportunity to keep the past alive for generations to come.
-						</div>
-						<img id="hp-book" src="/wp-content/images/tilted-book.png" />
 						
 					</div>
 
